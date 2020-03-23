@@ -3,6 +3,7 @@
 #include "func.h"
 
 char i = 0;
+
 void main(void)
 {
     // initialize the device
@@ -25,11 +26,13 @@ void main(void)
     //INTERRUPT_PeripheralInterruptDisable();
     PORTA = 0x0;
     TRISA = 0x0;
+    
     //EUSART1_Write(i);
     while(1)
     {
         RA2 = ((i++) % 2);
-        DispWriteValue(1792);
+        DispWriteValue(7777);
+        //write_dato ();
         __delay_ms(200);
     }
 }

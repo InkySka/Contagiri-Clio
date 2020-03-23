@@ -40,8 +40,6 @@ enum i2c_comm_err_codes
     COMM_I2C_SUCCESS
 };
 
-
-
 #ifdef	__cplusplus
 extern "C" {
 #endif /* __cplusplus */

@@ -11,87 +11,80 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Marco\AppData\Local\Temp\sljc.o
+$C:\Users\Marco\AppData\Local\Temp\s93k.o
 reset_vec CODE 0 0 0 2 2
-end_init CODE 0 25 25 2 2
+end_init CODE 0 2 2 2 2
 config CONFIG 0 8007 8007 5 2
 $dist/default/production\Contagiri.X.production.o
-cinit CODE 0 27 27 C 2
-text1 CODE 0 409 409 13 2
-text2 CODE 0 49A 49A B 2
-text3 CODE 0 4A5 4A5 A 2
-text4 CODE 0 289 289 35 2
-text5 CODE 0 4AF 4AF 9 2
-text6 CODE 0 4B8 4B8 9 2
-text7 CODE 0 390 390 25 2
-text8 CODE 0 4DF 4DF 6 2
-text9 CODE 0 4E5 4E5 6 2
-text10 CODE 0 4EB 4EB 6 2
-text11 CODE 0 33 33 72 2
-text12 CODE 0 15A 15A 54 2
-text13 CODE 0 A5 A5 60 2
-text14 CODE 0 1AE 1AE 50 2
-text15 CODE 0 460 460 10 2
-text16 CODE 0 244 244 45 2
-text17 CODE 0 4F1 4F1 6 2
-text18 CODE 0 480 480 D 2
-text19 CODE 0 53B 53B 3 2
-text20 CODE 0 53E 53E 3 2
-text21 CODE 0 3D5 3D5 1C 2
-text22 CODE 0 541 541 3 2
-text24 CODE 0 52F 52F 4 2
-text25 CODE 0 319 319 2B 2
-text26 CODE 0 544 544 3 2
-text27 CODE 0 2ED 2ED 2C 2
-text28 CODE 0 4FD 4FD 5 2
-text29 CODE 0 502 502 5 2
-text30 CODE 0 507 507 5 2
-text31 CODE 0 50C 50C 5 2
-text32 CODE 0 511 511 5 2
-text33 CODE 0 516 516 5 2
-text34 CODE 0 51B 51B 5 2
-text35 CODE 0 520 520 5 2
-text36 CODE 0 4D2 4D2 7 2
-text37 CODE 0 1FE 1FE 46 2
-text38 CODE 0 105 105 55 2
-text39 CODE 0 4CA 4CA 8 2
-text40 CODE 0 4C1 4C1 9 2
-text41 CODE 0 525 525 5 2
-text42 CODE 0 2BE 2BE 2F 2
-text43 CODE 0 547 547 3 2
-text44 CODE 0 4F7 4F7 6 2
-text45 CODE 0 52A 52A 5 2
-text46 CODE 0 533 533 4 2
-text47 CODE 0 54A 54A 3 2
-text48 CODE 0 537 537 4 2
-text49 CODE 0 54D 54D 3 2
-text50 CODE 0 556 556 2 2
-text51 CODE 0 558 558 2 2
-text52 CODE 0 3F1 3F1 18 2
-text53 CODE 0 41C 41C 11 2
-text54 CODE 0 42D 42D 11 2
-text55 CODE 0 43E 43E 11 2
-text56 CODE 0 44F 44F 11 2
-text57 CODE 0 470 470 10 2
-text58 CODE 0 48D 48D D 2
-text59 CODE 0 36A 36A 26 2
-text60 CODE 0 550 550 3 2
-text61 CODE 0 553 553 3 2
-nvBANK0 BANK0 1 5D 5D 6 1
-maintext CODE 0 344 344 26 2
-cstackCOMMON COMMON 1 70 70 D 1
-cstackBANK0 BANK0 1 41 41 1C 1
-stringtext1 STRCODE 0 3B5 3B5 20 2
-intentry CODE 0 4 4 21 2
-bssBANK0 BANK0 1 20 20 21 1
-clrtext CODE 0 4D9 4D9 6 2
+cinit CODE 0 7F5 7F5 B 2
+text1 CODE 0 3E3 3E3 D 2
+text2 CODE 0 3B2 3B2 A 2
+text3 CODE 0 56C 56C 2F 2
+text4 CODE 0 3A9 3A9 9 2
+text5 CODE 0 3A0 3A0 9 2
+text6 CODE 0 761 761 94 2
+text7 CODE 0 659 659 54 2
+text8 CODE 0 702 702 5F 2
+text9 CODE 0 5D5 5D5 3E 2
+text10 CODE 0 59B 59B 3A 2
+text11 CODE 0 3D6 3D6 D 2
+text12 CODE 0 478 478 1F 2
+text13 CODE 0 3C9 3C9 D 2
+text14 CODE 0 37C 37C 6 2
+text15 CODE 0 4E6 4E6 2B 2
+text16 CODE 0 511 511 2C 2
+text17 CODE 0 371 371 5 2
+text18 CODE 0 36C 36C 5 2
+text19 CODE 0 367 367 5 2
+text20 CODE 0 362 362 5 2
+text21 CODE 0 35D 35D 5 2
+text22 CODE 0 358 358 5 2
+text23 CODE 0 353 353 5 2
+text24 CODE 0 34E 34E 5 2
+text25 CODE 0 388 388 7 2
+text26 CODE 0 613 613 46 2
+text27 CODE 0 6AD 6AD 55 2
+text28 CODE 0 38F 38F 8 2
+text29 CODE 0 397 397 9 2
+text30 CODE 0 349 349 5 2
+text31 CODE 0 53D 53D 2F 2
+text32 CODE 0 339 339 3 2
+text33 CODE 0 376 376 6 2
+text34 CODE 0 344 344 5 2
+text35 CODE 0 340 340 4 2
+text36 CODE 0 336 336 3 2
+text37 CODE 0 33C 33C 4 2
+text38 CODE 0 333 333 3 2
+text39 CODE 0 31F 31F 2 2
+text40 CODE 0 31D 31D 2 2
+text41 CODE 0 444 444 18 2
+text42 CODE 0 433 433 11 2
+text43 CODE 0 422 422 11 2
+text44 CODE 0 411 411 11 2
+text45 CODE 0 400 400 11 2
+text46 CODE 0 3BC 3BC D 2
+text47 CODE 0 497 497 26 2
+text48 CODE 0 3F0 3F0 10 2
+text49 CODE 0 330 330 3 2
+text50 CODE 0 32D 32D 3 2
+text51 CODE 0 32A 32A 3 2
+text52 CODE 0 45C 45C 1C 2
+text53 CODE 0 327 327 3 2
+text54 CODE 0 324 324 3 2
+text55 CODE 0 321 321 3 2
+maintext CODE 0 4BD 4BD 29 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 3E 3E 1A 1
+stringtext1 STRCODE 0 800 800 20 2
+bssBANK0 BANK0 1 20 20 1E 1
+clrtext CODE 0 382 382 6 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 63-6F 1
+RAM 58-6F 1
 RAM A0-EF 1
 RAM 120-16F 1
 RAM 1A0-1EF 1
@@ -117,7 +110,7 @@ RAM B20-B6F 1
 RAM BA0-BEF 1
 RAM C20-C6F 1
 RAM CA0-CBF 1
-BANK0 63-6F 1
+BANK0 58-6F 1
 BANK1 A0-EF 1
 BANK2 120-16F 1
 BANK3 1A0-1EF 1
@@ -127,10 +120,10 @@ BANK6 320-36F 1
 BANK7 3A0-3EF 1
 BANK8 420-46F 1
 BANK9 4A0-4EF 1
-CONST 2-3 2
-CONST 55A-3FFF 2
-ENTRY 2-3 2
-ENTRY 55A-3FFF 2
+CONST 4-31C 2
+CONST 820-3FFF 2
+ENTRY 4-31C 2
+ENTRY 820-3FFF 2
 IDLOC 8000-8003 2
 SFR10 500-51F 1
 SFR11 580-59F 1
@@ -186,9 +179,9 @@ SFR60 1E00-1E6F 1
 SFR61 1E80-1EEF 1
 SFR62 1F00-1F6F 1
 SFR63 1F80-1FEF 1
-STACK 2043-27EF 1
-CODE 2-3 2
-CODE 55A-3FFF 2
+STACK 2038-27EF 1
+CODE 4-31C 2
+CODE 820-3FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-11F 1
@@ -216,12 +209,11 @@ BANK23 BA0-BEF 1
 BANK24 C20-C6F 1
 BANK25 CA0-CBF 1
 BIGRAM 2000-27EF 1
-COMMON 7D-7D 1
 EEDATA F000-F0FF 2
-STRCODE 2-3 2
-STRCODE 55A-3FFF 2
-STRING 2-3 2
-STRING 55A-3FFF 2
+STRCODE 4-31C 2
+STRCODE 820-3FFF 2
+STRING 4-31C 2
+STRING 820-3FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -236,450 +228,416 @@ STRING 55A-3FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Contagiri.X.production.o
-27 cinit CODE >8658:C:\Users\Marco\AppData\Local\Temp\sljc.s
-27 cinit CODE >8661:C:\Users\Marco\AppData\Local\Temp\sljc.s
-27 cinit CODE >8694:C:\Users\Marco\AppData\Local\Temp\sljc.s
-28 cinit CODE >8695:C:\Users\Marco\AppData\Local\Temp\sljc.s
-29 cinit CODE >8696:C:\Users\Marco\AppData\Local\Temp\sljc.s
-2A cinit CODE >8697:C:\Users\Marco\AppData\Local\Temp\sljc.s
-2B cinit CODE >8698:C:\Users\Marco\AppData\Local\Temp\sljc.s
-2C cinit CODE >8699:C:\Users\Marco\AppData\Local\Temp\sljc.s
-2F cinit CODE >8705:C:\Users\Marco\AppData\Local\Temp\sljc.s
-2F cinit CODE >8707:C:\Users\Marco\AppData\Local\Temp\sljc.s
-30 cinit CODE >8708:C:\Users\Marco\AppData\Local\Temp\sljc.s
-31 cinit CODE >8709:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4 intentry CODE >52:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-6 intentry CODE >55:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-A intentry CODE >57:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-13 intentry CODE >59:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-19 intentry CODE >60:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-1A intentry CODE >61:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-23 intentry CODE >68:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-23 intentry CODE >74:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/interrupt_manager.c
-553 text61 CODE >573:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-553 text61 CODE >575:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-555 text61 CODE >576:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-550 text60 CODE >593:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-550 text60 CODE >595:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-552 text60 CODE >596:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-36A text59 CODE >303:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-36B text59 CODE >305:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-371 text59 CODE >307:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-379 text59 CODE >308:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-381 text59 CODE >309:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-382 text59 CODE >312:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-38A text59 CODE >313:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-38F text59 CODE >315:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-48D text58 CODE >273:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-48D text58 CODE >275:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-499 text58 CODE >276:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-470 text57 CODE >263:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-471 text57 CODE >265:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-476 text57 CODE >267:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-47A text57 CODE >268:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-47E text57 CODE >269:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-47F text57 CODE >271:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-44F text56 CODE >163:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-44F text56 CODE >165:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-457 text56 CODE >166:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-45E text56 CODE >167:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-45F text56 CODE >168:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-43E text55 CODE >142:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-43E text55 CODE >144:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-446 text55 CODE >145:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-44D text55 CODE >146:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-44E text55 CODE >147:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-42D text54 CODE >149:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-42D text54 CODE >151:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-435 text54 CODE >152:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-43C text54 CODE >153:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-43D text54 CODE >154:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-41C text53 CODE >156:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-41C text53 CODE >158:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-424 text53 CODE >159:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-42B text53 CODE >160:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-42C text53 CODE >161:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-3F1 text52 CODE >170:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-3F1 text52 CODE >172:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-400 text52 CODE >173:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-407 text52 CODE >174:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-408 text52 CODE >175:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c1_master_example.c
-558 text51 CODE >520:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-558 text51 CODE >522:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-559 text51 CODE >523:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-556 text50 CODE >525:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-556 text50 CODE >527:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-557 text50 CODE >528:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-54D text49 CODE >583:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-54D text49 CODE >585:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-54F text49 CODE >586:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-537 text48 CODE >609:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-537 text48 CODE >611:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-539 text48 CODE >612:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-53A text48 CODE >613:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-54A text47 CODE >563:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-54A text47 CODE >565:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-54C text47 CODE >566:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-533 text46 CODE >603:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-533 text46 CODE >605:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-535 text46 CODE >606:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-536 text46 CODE >607:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-52A text45 CODE >568:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-52B text45 CODE >570:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-52E text45 CODE >571:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4F7 text44 CODE >598:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4F7 text44 CODE >600:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4FC text44 CODE >601:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-547 text43 CODE >646:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-547 text43 CODE >648:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-549 text43 CODE >649:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2BE text42 CODE >410:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2BE text42 CODE >412:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2C0 text42 CODE >413:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2C1 text42 CODE >417:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2C5 text42 CODE >419:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2C8 text42 CODE >420:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2CA text42 CODE >423:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2CE text42 CODE >424:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2EC text42 CODE >425:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-525 text41 CODE >334:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-525 text41 CODE >336:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-527 text41 CODE >337:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-528 text41 CODE >338:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-529 text41 CODE >339:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4C1 text40 CODE >341:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4C1 text40 CODE >343:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4C3 text40 CODE >344:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4C8 text40 CODE >345:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4C9 text40 CODE >346:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4CA text39 CODE >348:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4CA text39 CODE >350:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4CC text39 CODE >351:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4D0 text39 CODE >352:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4D1 text39 CODE >353:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-105 text38 CODE >355:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-105 text38 CODE >357:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-10E text38 CODE >362:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-112 text38 CODE >364:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-116 text38 CODE >368:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-11A text38 CODE >369:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-13D text38 CODE >371:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-13D text38 CODE >373:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-13F text38 CODE >374:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-14B text38 CODE >375:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-159 text38 CODE >377:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-1FE text37 CODE >379:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-1FE text37 CODE >381:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-20C text37 CODE >382:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-216 text37 CODE >384:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-219 text37 CODE >385:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-21B text37 CODE >387:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-21B text37 CODE >389:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-21C text37 CODE >390:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-21D text37 CODE >394:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-221 text37 CODE >398:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-225 text37 CODE >399:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-243 text37 CODE >401:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4D2 text36 CODE >403:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4D2 text36 CODE >405:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4D4 text36 CODE >406:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4D7 text36 CODE >407:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4D8 text36 CODE >408:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-520 text35 CODE >450:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-520 text35 CODE >452:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-523 text35 CODE >453:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-524 text35 CODE >454:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-51B text34 CODE >456:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-51B text34 CODE >458:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-51E text34 CODE >459:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-51F text34 CODE >460:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-516 text33 CODE >463:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-516 text33 CODE >465:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-519 text33 CODE >466:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-51A text33 CODE >467:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-511 text32 CODE >469:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-511 text32 CODE >471:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-514 text32 CODE >472:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-515 text32 CODE >473:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-50C text31 CODE >475:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-50C text31 CODE >477:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-50F text31 CODE >478:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-510 text31 CODE >479:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-507 text30 CODE >482:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-507 text30 CODE >484:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-50A text30 CODE >485:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-50B text30 CODE >486:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-502 text29 CODE >488:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-502 text29 CODE >490:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-505 text29 CODE >491:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-506 text29 CODE >492:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4FD text28 CODE >494:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4FD text28 CODE >496:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4FF text28 CODE >497:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-500 text28 CODE >498:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-501 text28 CODE >499:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2ED text27 CODE >500:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2ED text27 CODE >502:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2EF text27 CODE >503:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2F3 text27 CODE >504:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2F4 text27 CODE >508:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2F8 text27 CODE >510:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-2FC text27 CODE >511:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-318 text27 CODE >512:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-544 text26 CODE >641:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-544 text26 CODE >643:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-546 text26 CODE >644:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-319 text25 CODE >322:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-319 text25 CODE >324:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-31C text25 CODE >326:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-329 text25 CODE >328:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-32E text25 CODE >330:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-343 text25 CODE >331:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-52F text24 CODE >317:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-52F text24 CODE >319:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-532 text24 CODE >320:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-541 text22 CODE >588:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-541 text22 CODE >590:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-543 text22 CODE >591:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3D5 text21 CODE >225:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3D7 text21 CODE >227:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3D9 text21 CODE >228:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3DD text21 CODE >230:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3DE text21 CODE >231:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3DF text21 CODE >233:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3E4 text21 CODE >235:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3E6 text21 CODE >236:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3E7 text21 CODE >239:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3EB text21 CODE >241:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3EE text21 CODE >243:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-3F0 text21 CODE >244:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-53E text20 CODE >641:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-53E text20 CODE >643:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-540 text20 CODE >644:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-53B text19 CODE >626:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-53B text19 CODE >628:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-53D text19 CODE >629:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-480 text18 CODE >543:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-480 text18 CODE >545:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-485 text18 CODE >547:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-486 text18 CODE >548:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-488 text18 CODE >549:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-489 text18 CODE >550:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-48B text18 CODE >551:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-48C text18 CODE >555:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4F1 text17 CODE >298:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4F1 text17 CODE >300:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4F6 text17 CODE >301:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-244 text16 CODE >176:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-246 text16 CODE >178:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-248 text16 CODE >180:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-24C text16 CODE >182:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-250 text16 CODE >183:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-251 text16 CODE >184:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-252 text16 CODE >185:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-253 text16 CODE >186:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-257 text16 CODE >187:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-25B text16 CODE >188:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-25C text16 CODE >191:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-260 text16 CODE >192:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-261 text16 CODE >193:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-265 text16 CODE >194:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-266 text16 CODE >195:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-26A text16 CODE >196:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-26B text16 CODE >197:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-26F text16 CODE >198:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-270 text16 CODE >199:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-274 text16 CODE >200:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-275 text16 CODE >201:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-27C text16 CODE >202:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-27F text16 CODE >203:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-282 text16 CODE >204:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-285 text16 CODE >205:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-287 text16 CODE >207:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-288 text16 CODE >208:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-460 text15 CODE >263:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-462 text15 CODE >265:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-466 text15 CODE >267:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-46A text15 CODE >268:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-46E text15 CODE >269:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-46F text15 CODE >271:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-1AE text14 CODE >25:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1B0 text14 CODE >29:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1B7 text14 CODE >30:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1BC text14 CODE >31:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1C1 text14 CODE >32:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1C6 text14 CODE >38:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1CE text14 CODE >39:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1D4 text14 CODE >40:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1D6 text14 CODE >41:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1DA text14 CODE >44:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1E5 text14 CODE >46:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1EA text14 CODE >47:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1EC text14 CODE >49:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1F4 text14 CODE >50:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1FC text14 CODE >52:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-1FD text14 CODE >53:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-A5 text13 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-A5 text13 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-A7 text13 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-AB text13 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-B0 text13 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-B2 text13 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-B6 text13 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-BB text13 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-BF text13 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-C1 text13 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-C7 text13 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-C9 text13 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-CA text13 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-CF text13 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-D3 text13 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-D7 text13 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-DC text13 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-E6 text13 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-EA text13 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-EB text13 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-F0 text13 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-F6 text13 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-FB text13 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-100 text13 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-104 text13 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
-15A text12 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-15A text12 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-15C text12 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-160 text12 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-165 text12 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-167 text12 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-16B text12 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-170 text12 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-176 text12 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-178 text12 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-179 text12 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-17E text12 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-182 text12 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-186 text12 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-190 text12 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-194 text12 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-199 text12 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-19F text12 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-1A4 text12 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-1A9 text12 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-1AD text12 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
-33 text11 CODE >4:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-33 text11 CODE >11:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-38 text11 CODE >12:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-48 text11 CODE >13:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-4C text11 CODE >14:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-68 text11 CODE >15:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-6C text11 CODE >16:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-88 text11 CODE >17:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-8C text11 CODE >18:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-9C text11 CODE >20:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-A4 text11 CODE >23:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
-4EB text10 CODE >174:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4EB text10 CODE >175:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4F0 text10 CODE >176:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4E5 text9 CODE >166:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4E5 text9 CODE >167:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4EA text9 CODE >168:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4DF text8 CODE >170:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4DF text8 CODE >171:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4E4 text8 CODE >172:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-390 text7 CODE >66:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-390 text7 CODE >71:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-393 text7 CODE >74:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-395 text7 CODE >77:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-397 text7 CODE >80:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-399 text7 CODE >83:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-39A text7 CODE >86:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-3A2 text7 CODE >87:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-3AA text7 CODE >88:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-3B2 text7 CODE >90:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-3B4 text7 CODE >92:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/eusart1.c
-4B8 text6 CODE >167:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4B8 text6 CODE >169:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4BA text6 CODE >170:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4BC text6 CODE >171:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4BD text6 CODE >172:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4BF text6 CODE >173:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4C0 text6 CODE >174:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c1_master.c
-4AF text5 CODE >60:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4AF text5 CODE >63:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4B2 text5 CODE >65:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4B3 text5 CODE >67:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4B4 text5 CODE >69:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4B6 text5 CODE >71:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4B7 text5 CODE >72:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-289 text4 CODE >55:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-289 text4 CODE >60:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-28B text4 CODE >61:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-28C text4 CODE >62:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-28D text4 CODE >67:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-28F text4 CODE >68:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-291 text4 CODE >69:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-293 text4 CODE >74:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-296 text4 CODE >75:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-298 text4 CODE >76:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-29A text4 CODE >81:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-29B text4 CODE >82:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-29C text4 CODE >83:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-29D text4 CODE >88:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-29E text4 CODE >89:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-29F text4 CODE >90:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2A0 text4 CODE >95:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2A2 text4 CODE >96:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2A4 text4 CODE >97:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2A6 text4 CODE >102:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2A8 text4 CODE >103:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2AA text4 CODE >104:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2AC text4 CODE >113:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2AF text4 CODE >114:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2B2 text4 CODE >115:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2B4 text4 CODE >116:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2B6 text4 CODE >117:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2B9 text4 CODE >118:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2BB text4 CODE >119:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-2BD text4 CODE >120:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
-4A5 text3 CODE >74:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4A5 text3 CODE >77:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4A7 text3 CODE >79:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4A8 text3 CODE >81:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4A9 text3 CODE >83:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4AA text3 CODE >85:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4AB text3 CODE >87:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4AC text3 CODE >89:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4AD text3 CODE >91:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-4AE text3 CODE >92:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-49A text2 CODE >60:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/tmr0.c
-49A text2 CODE >65:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/tmr0.c
-49C text2 CODE >68:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/tmr0.c
-49E text2 CODE >71:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/tmr0.c
-49F text2 CODE >74:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/tmr0.c
-4A1 text2 CODE >77:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/tmr0.c
-4A4 text2 CODE >78:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/tmr0.c
-409 text1 CODE >50:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-409 text1 CODE >52:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-40C text1 CODE >53:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-40F text1 CODE >54:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-412 text1 CODE >55:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-415 text1 CODE >56:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-418 text1 CODE >57:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-41B text1 CODE >58:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
-344 maintext CODE >6:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
-344 maintext CODE >9:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
-347 maintext CODE >26:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
-349 maintext CODE >27:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
-34A maintext CODE >31:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
-357 maintext CODE >32:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
-35E maintext CODE >33:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
-4D9 clrtext CODE >8683:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4D9 clrtext CODE >8684:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4DA clrtext CODE >8685:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4DA clrtext CODE >8686:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4DB clrtext CODE >8687:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4DC clrtext CODE >8688:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4DD clrtext CODE >8689:C:\Users\Marco\AppData\Local\Temp\sljc.s
-4DE clrtext CODE >8690:C:\Users\Marco\AppData\Local\Temp\sljc.s
+7F5 cinit CODE >5865:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7F5 cinit CODE >5868:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7F5 cinit CODE >5895:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7F6 cinit CODE >5896:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7F7 cinit CODE >5897:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7F8 cinit CODE >5898:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7F9 cinit CODE >5899:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7FA cinit CODE >5900:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7FD cinit CODE >5906:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7FD cinit CODE >5908:C:\Users\Marco\AppData\Local\Temp\s93k.s
+7FE cinit CODE >5909:C:\Users\Marco\AppData\Local\Temp\s93k.s
+321 text55 CODE >640:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+321 text55 CODE >642:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+323 text55 CODE >643:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+324 text54 CODE >557:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+324 text54 CODE >560:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+326 text54 CODE >561:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+327 text53 CODE >635:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+327 text53 CODE >637:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+329 text53 CODE >638:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+45C text52 CODE >209:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+45C text52 CODE >211:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+45E text52 CODE >212:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+463 text52 CODE >214:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+464 text52 CODE >215:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+468 text52 CODE >216:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+46B text52 CODE >217:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+46E text52 CODE >218:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+471 text52 CODE >219:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+476 text52 CODE >221:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+477 text52 CODE >222:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+32A text51 CODE >588:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+32A text51 CODE >590:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+32C text51 CODE >591:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+32D text50 CODE >573:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+32D text50 CODE >575:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+32F text50 CODE >576:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+330 text49 CODE >593:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+330 text49 CODE >595:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+332 text49 CODE >596:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3F0 text48 CODE >263:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3F1 text48 CODE >265:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3F6 text48 CODE >267:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3FA text48 CODE >268:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3FE text48 CODE >269:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3FF text48 CODE >271:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+497 text47 CODE >298:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+498 text47 CODE >300:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+49E text47 CODE >302:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4A6 text47 CODE >303:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4AE text47 CODE >304:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4AF text47 CODE >307:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4B7 text47 CODE >308:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4BC text47 CODE >310:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3BC text46 CODE >273:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3BC text46 CODE >275:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3C8 text46 CODE >276:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+400 text45 CODE >163:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+400 text45 CODE >165:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+408 text45 CODE >166:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+40F text45 CODE >167:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+410 text45 CODE >168:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+411 text44 CODE >142:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+411 text44 CODE >144:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+419 text44 CODE >145:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+420 text44 CODE >146:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+421 text44 CODE >147:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+422 text43 CODE >149:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+422 text43 CODE >151:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+42A text43 CODE >152:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+431 text43 CODE >153:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+432 text43 CODE >154:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+433 text42 CODE >156:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+433 text42 CODE >158:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+43B text42 CODE >159:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+442 text42 CODE >160:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+443 text42 CODE >161:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+444 text41 CODE >170:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+444 text41 CODE >172:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+453 text41 CODE >173:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+45A text41 CODE >174:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+45B text41 CODE >175:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/examples/i2c2_master_example.c
+31D text40 CODE >520:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+31D text40 CODE >522:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+31E text40 CODE >523:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+31F text39 CODE >525:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+31F text39 CODE >527:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+320 text39 CODE >528:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+333 text38 CODE >583:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+333 text38 CODE >585:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+335 text38 CODE >586:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+33C text37 CODE >609:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+33C text37 CODE >611:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+33E text37 CODE >612:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+33F text37 CODE >613:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+336 text36 CODE >563:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+336 text36 CODE >565:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+338 text36 CODE >566:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+340 text35 CODE >603:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+340 text35 CODE >605:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+342 text35 CODE >606:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+343 text35 CODE >607:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+344 text34 CODE >568:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+345 text34 CODE >570:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+348 text34 CODE >571:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+376 text33 CODE >598:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+376 text33 CODE >600:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+37B text33 CODE >601:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+339 text32 CODE >645:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+339 text32 CODE >647:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+33B text32 CODE >648:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+53D text31 CODE >409:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+53D text31 CODE >411:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+53F text31 CODE >412:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+540 text31 CODE >416:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+544 text31 CODE >418:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+547 text31 CODE >419:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+549 text31 CODE >422:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+54D text31 CODE >423:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+56B text31 CODE >424:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+349 text30 CODE >333:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+349 text30 CODE >335:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+34B text30 CODE >336:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+34C text30 CODE >337:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+34D text30 CODE >338:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+397 text29 CODE >340:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+397 text29 CODE >342:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+399 text29 CODE >343:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+39E text29 CODE >344:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+39F text29 CODE >345:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+38F text28 CODE >347:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+38F text28 CODE >349:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+391 text28 CODE >350:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+395 text28 CODE >351:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+396 text28 CODE >352:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6AD text27 CODE >354:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6AD text27 CODE >356:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6B6 text27 CODE >361:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6BA text27 CODE >363:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6BE text27 CODE >367:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6C2 text27 CODE >368:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6E5 text27 CODE >370:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6E5 text27 CODE >372:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6E7 text27 CODE >373:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+6F3 text27 CODE >374:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+701 text27 CODE >376:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+613 text26 CODE >378:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+613 text26 CODE >380:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+621 text26 CODE >381:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+62B text26 CODE >383:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+62E text26 CODE >384:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+630 text26 CODE >386:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+630 text26 CODE >388:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+631 text26 CODE >389:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+632 text26 CODE >393:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+636 text26 CODE >397:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+63A text26 CODE >398:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+658 text26 CODE >400:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+388 text25 CODE >402:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+388 text25 CODE >404:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+38A text25 CODE >405:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+38D text25 CODE >406:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+38E text25 CODE >407:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+34E text24 CODE >450:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+34E text24 CODE >452:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+351 text24 CODE >453:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+352 text24 CODE >454:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+353 text23 CODE >456:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+353 text23 CODE >458:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+356 text23 CODE >459:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+357 text23 CODE >460:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+358 text22 CODE >463:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+358 text22 CODE >465:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+35B text22 CODE >466:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+35C text22 CODE >467:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+35D text21 CODE >469:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+35D text21 CODE >471:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+360 text21 CODE >472:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+361 text21 CODE >473:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+362 text20 CODE >475:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+362 text20 CODE >477:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+365 text20 CODE >478:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+366 text20 CODE >479:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+367 text19 CODE >482:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+367 text19 CODE >484:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+36A text19 CODE >485:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+36B text19 CODE >486:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+36C text18 CODE >488:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+36C text18 CODE >490:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+36F text18 CODE >491:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+370 text18 CODE >492:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+371 text17 CODE >494:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+371 text17 CODE >496:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+373 text17 CODE >497:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+374 text17 CODE >498:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+375 text17 CODE >499:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+511 text16 CODE >500:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+511 text16 CODE >502:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+513 text16 CODE >503:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+517 text16 CODE >504:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+518 text16 CODE >508:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+51C text16 CODE >510:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+520 text16 CODE >511:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+53C text16 CODE >512:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4E6 text15 CODE >321:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4E6 text15 CODE >323:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4E9 text15 CODE >325:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4F6 text15 CODE >327:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+4FB text15 CODE >329:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+510 text15 CODE >330:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+37C text14 CODE >650:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+37C text14 CODE >652:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+37C text14 CODE >654:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+381 text14 CODE >659:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3C9 text13 CODE >312:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3C9 text13 CODE >314:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3CA text13 CODE >316:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3CD text13 CODE >317:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3D0 text13 CODE >314:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3D5 text13 CODE >319:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+478 text12 CODE >224:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+47A text12 CODE >226:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+47C text12 CODE >227:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+480 text12 CODE >229:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+481 text12 CODE >230:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+482 text12 CODE >232:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+487 text12 CODE >234:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+489 text12 CODE >235:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+48A text12 CODE >238:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+48E text12 CODE >240:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+491 text12 CODE >241:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+494 text12 CODE >243:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+496 text12 CODE >244:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3D6 text11 CODE >543:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3D6 text11 CODE >545:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3DB text11 CODE >547:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3DC text11 CODE >548:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3DE text11 CODE >549:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3DF text11 CODE >550:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3E1 text11 CODE >551:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3E2 text11 CODE >555:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+59B text10 CODE >176:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+59C text10 CODE >178:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+59E text10 CODE >180:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5A3 text10 CODE >182:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5A7 text10 CODE >183:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5A8 text10 CODE >184:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5A9 text10 CODE >185:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5AA text10 CODE >186:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5AE text10 CODE >187:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5B2 text10 CODE >188:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5B3 text10 CODE >191:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5B7 text10 CODE >192:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5B8 text10 CODE >193:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5BC text10 CODE >194:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5BD text10 CODE >195:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5C1 text10 CODE >196:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5C2 text10 CODE >197:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5C6 text10 CODE >198:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5C7 text10 CODE >199:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5CB text10 CODE >200:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5CC text10 CODE >202:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5CF text10 CODE >203:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5D2 text10 CODE >204:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5D3 text10 CODE >205:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5D3 text10 CODE >206:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5D4 text10 CODE >207:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+5D5 text9 CODE >27:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5D7 text9 CODE >35:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5D7 text9 CODE >36:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5DF text9 CODE >37:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5E5 text9 CODE >38:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5E7 text9 CODE >39:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5EB text9 CODE >42:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5F6 text9 CODE >44:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5FB text9 CODE >45:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+5FD text9 CODE >47:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+605 text9 CODE >48:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+60D text9 CODE >49:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+610 text9 CODE >50:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+612 text9 CODE >51:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+702 text8 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+702 text8 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+703 text8 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+707 text8 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+70C text8 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+70E text8 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+712 text8 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+717 text8 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+71B text8 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+71D text8 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+723 text8 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+725 text8 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+726 text8 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+72B text8 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+72F text8 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+733 text8 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+738 text8 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+742 text8 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+746 text8 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+747 text8 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+74C text8 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+752 text8 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+757 text8 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+75C text8 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+760 text8 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+659 text7 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+659 text7 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+65B text7 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+65F text7 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+664 text7 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+666 text7 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+66A text7 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+66F text7 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+675 text7 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+677 text7 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+678 text7 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+67D text7 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+681 text7 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+685 text7 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+68F text7 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+693 text7 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+698 text7 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+69E text7 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+6A3 text7 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+6A8 text7 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+6AC text7 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+761 text6 CODE >6:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+761 text6 CODE >13:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+77A text6 CODE >14:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+77F text6 CODE >15:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+7A2 text6 CODE >16:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+7A7 text6 CODE >17:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+7CA text6 CODE >18:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+7CF text6 CODE >19:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+7E7 text6 CODE >20:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+7EC text6 CODE >22:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+7F4 text6 CODE >25:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
+3A0 text5 CODE >167:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3A0 text5 CODE >169:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3A2 text5 CODE >170:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3A4 text5 CODE >171:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3A5 text5 CODE >172:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3A7 text5 CODE >173:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3A8 text5 CODE >174:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/i2c2_master.c
+3A9 text4 CODE >58:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3A9 text4 CODE >61:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3AC text4 CODE >63:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3AD text4 CODE >65:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3AE text4 CODE >67:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B0 text4 CODE >69:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B1 text4 CODE >70:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+56C text3 CODE >55:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+56C text3 CODE >60:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+56E text3 CODE >61:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+56F text3 CODE >62:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+570 text3 CODE >67:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+572 text3 CODE >68:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+574 text3 CODE >69:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+576 text3 CODE >74:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+579 text3 CODE >75:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+57B text3 CODE >76:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+57D text3 CODE >81:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+57E text3 CODE >82:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+57F text3 CODE >83:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+580 text3 CODE >88:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+581 text3 CODE >89:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+582 text3 CODE >90:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+583 text3 CODE >95:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+585 text3 CODE >96:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+587 text3 CODE >97:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+589 text3 CODE >102:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+58B text3 CODE >103:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+58D text3 CODE >104:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+58F text3 CODE >113:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+592 text3 CODE >114:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+595 text3 CODE >115:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+597 text3 CODE >116:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+59A text3 CODE >117:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/pin_manager.c
+3B2 text2 CODE >72:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B2 text2 CODE >75:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B4 text2 CODE >77:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B5 text2 CODE >79:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B6 text2 CODE >81:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B7 text2 CODE >83:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B8 text2 CODE >85:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3B9 text2 CODE >87:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3BA text2 CODE >89:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3BB text2 CODE >90:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3E3 text1 CODE >50:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3E3 text1 CODE >52:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3E6 text1 CODE >53:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3E9 text1 CODE >54:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3EC text1 CODE >55:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+3EF text1 CODE >56:E:\Programmi\Micro\PIC16F18446\Contagiri.X\mcc_generated_files/mcc.c
+4BD maintext CODE >7:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
+4BD maintext CODE >10:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
+4C0 maintext CODE >27:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
+4C2 maintext CODE >28:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
+4C3 maintext CODE >33:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
+4D0 maintext CODE >34:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
+4D7 maintext CODE >36:E:\Programmi\Micro\PIC16F18446\Contagiri.X\main.c
+382 clrtext CODE >5884:C:\Users\Marco\AppData\Local\Temp\s93k.s
+382 clrtext CODE >5885:C:\Users\Marco\AppData\Local\Temp\s93k.s
+383 clrtext CODE >5886:C:\Users\Marco\AppData\Local\Temp\s93k.s
+383 clrtext CODE >5887:C:\Users\Marco\AppData\Local\Temp\s93k.s
+384 clrtext CODE >5888:C:\Users\Marco\AppData\Local\Temp\s93k.s
+385 clrtext CODE >5889:C:\Users\Marco\AppData\Local\Temp\s93k.s
+386 clrtext CODE >5890:C:\Users\Marco\AppData\Local\Temp\s93k.s
+387 clrtext CODE >5891:C:\Users\Marco\AppData\Local\Temp\s93k.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -692,25 +650,22 @@ A4 text11 CODE >23:E:\Programmi\Micro\PIC16F18446\Contagiri.X\func.c
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-_i 3F 0 BANK0 1 bssBANK0 dist/default/production\Contagiri.X.production.o
+_i 3D 0 BANK0 1 bssBANK0 dist/default/production\Contagiri.X.production.o
 ___latbits 3 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-___awdiv@counter 49 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_SetCallback 720 0 CODE 0 text59 dist/default/production\Contagiri.X.production.o
-_I2C1_Initialize 970 0 CODE 0 text6 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_CallbackReturnStop 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
 __Hspace_0 800C 0 ABS 0 - -
-__Hspace_1 7D 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
-_SSP1STATbits 18F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-EUSART1_SetErrorHandler@interruptHandler 44 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_SetCallback 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_EUSART1_Initialize 720 0 CODE 0 text7 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterSendTxData 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_MasterDisableIrq 64E 0 CODE 0 text53 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_ADDRESS_NACK 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_DO_SEND_RESTART_WRITE 6A6 0 CODE 0 text23 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_SEND_ADR_WRITE 71E 0 CODE 0 text28 dist/default/production\Contagiri.X.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
-__end_of_I2C1_SetBuffer 8E0 0 CODE 0 text15 dist/default/production\Contagiri.X.production.o
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_SetDataCompleteCallback@ptr 77 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-_PMD_Initialize 94A 0 CODE 0 text3 dist/default/production\Contagiri.X.production.o
+_PMD_Initialize 764 0 CODE 0 text2 dist/default/production\Contagiri.X.production.o
+I2C2_MasterSendTxData@data 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
 __Hstrings 0 0 ABS 0 strings -
 __CFG_WDTCCS$SC 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _LATA 18 0 ABS 0 - dist/default/production\Contagiri.X.production.o
@@ -727,140 +682,111 @@ _PMD7 79D 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _WPUA 1F39 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _WPUB 1F44 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _WPUC 1F4F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Marco\AppData\Local\Temp\sljc.o
-_main 688 0 CODE 0 maintext dist/default/production\Contagiri.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Marco\AppData\Local\Temp\s93k.o
+_main 97A 0 CODE 0 maintext dist/default/production\Contagiri.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-start 4A 0 CODE 0 init C:\Users\Marco\AppData\Local\Temp\sljc.o
+start 4 0 CODE 0 init C:\Users\Marco\AppData\Local\Temp\s93k.o
+_I2C2_Close 8B8 0 CODE 0 text52 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_RX C26 0 CODE 0 text26 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_TX D5A 0 CODE 0 text27 dist/default/production\Contagiri.X.production.o
 __size_of___awdiv 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __size_of___awmod 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_MasterSendAck A66 0 CODE 0 text46 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterSendTxData 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_SetDataCompleteCallback 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_SEND_RESTART_READ 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_wr2RegCompleteHandler 8C0 0 CODE 0 text56 dist/default/production\Contagiri.X.production.o
+I2C2_SetBuffer@bufferSize 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_ADDRESS_NACK A7A 0 CODE 0 text16 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterSendAck 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_Initialize 752 0 CODE 0 text5 dist/default/production\Contagiri.X.production.o
+__end_of_wr2RegCompleteHandler 822 0 CODE 0 text45 dist/default/production\Contagiri.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-_I2C1_DO_IDLE A4A 0 CODE 0 text41 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_RCEN 9A4 0 CODE 0 text36 dist/default/production\Contagiri.X.production.o
-_I2C1_CallbackReturnReset AAC 0 CODE 0 text50 dist/default/production\Contagiri.X.production.o
-_SendI2CData 35C 0 CODE 0 text14 dist/default/production\Contagiri.X.production.o
-___awmod@sign 53 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_SetDataCompleteCallback 934 0 CODE 0 text58 dist/default/production\Contagiri.X.production.o
+_SendI2CData BAA 0 CODE 0 text9 dist/default/production\Contagiri.X.production.o
+___awmod@sign 3F 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+I2C2_SetDataCompleteCallback@cb 75 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterStartRx AA0 0 CODE 0 text49 dist/default/production\Contagiri.X.production.o
 rd1RegCompleteHandler@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
 __size_of_rd1RegCompleteHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\sljc.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\sljc.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\sljc.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\sljc.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\sljc.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\sljc.o
-__size_of_EUSART1_SetErrorHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterIsNack 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_TX_EMPTY 5DA 0 CODE 0 text42 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_SEND_RESTART_WRITE 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_fsmStateTable 7AA 0 STRCODE 0 stringtext1 dist/default/production\Contagiri.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\s93k.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\s93k.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\s93k.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\s93k.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\s93k.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Marco\AppData\Local\Temp\s93k.o
+_I2C2_DO_RX_ACK 6C4 0 CODE 0 text20 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterClose 64E 0 CODE 0 text54 dist/default/production\Contagiri.X.production.o
+_I2C2_SetCallback 92E 0 CODE 0 text47 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterStart 65A 0 CODE 0 text51 dist/default/production\Contagiri.X.production.o
+__end_of_fsmStateTable 1040 0 STRCODE 0 stringtext1 dist/default/production\Contagiri.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_MasterGetRxData A94 0 CODE 0 text47 dist/default/production\Contagiri.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
-__size_of_I2C1_DO_RX_NACK_STOP 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_RC1STAbits 11D 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_wr2RegCompleteHandler 89E 0 CODE 0 text56 dist/default/production\Contagiri.X.production.o
-__end_of_PMD_Initialize 95E 0 CODE 0 text3 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_RX_ACK 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_TX_EMPTY 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-___awdiv@sign 4A 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+_wr2RegCompleteHandler 800 0 CODE 0 text45 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterClose 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_PMD_Initialize 778 0 CODE 0 text2 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterStart 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_MasterFsm 9CC 0 CODE 0 text15 dist/default/production\Contagiri.X.production.o
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext -
-__size_of_I2C1_DO_RX_NACK_RESTART 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_rdBlkRegCompleteHandler 7E2 0 CODE 0 text52 dist/default/production\Contagiri.X.production.o
+_rdBlkRegCompleteHandler 888 0 CODE 0 text41 dist/default/production\Contagiri.X.production.o
 _ANSELA 1F38 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _ANSELB 1F43 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _ANSELC 1F4E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterFsm 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterIsr 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_RX_NACK_STOP A18 0 CODE 0 text30 dist/default/production\Contagiri.X.production.o
-_MSSP1_InterruptHandler 3D 0 BANK0 1 bssBANK0 dist/default/production\Contagiri.X.production.o
-___awdiv@dividend 46 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterEnableRestart AA6 0 CODE 0 text61 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_IDLE 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_RCEN 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_rdBlkRegCompleteHandler 812 0 CODE 0 text52 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterStartRx A9A 0 CODE 0 text49 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_RX 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_TX 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_INTERRUPT_InterruptManager 4A 0 CODE 0 intentry dist/default/production\Contagiri.X.production.o
-i1I2C1_SetBuffer@bufferSize 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterSetIrq 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterOpen 91A 0 CODE 0 text18 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterStop AA6 0 CODE 0 text60 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_SEND_RESTART A2C 0 CODE 0 text33 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_Close 8F0 0 CODE 0 text52 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_RX CB2 0 CODE 0 text26 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_TX E04 0 CODE 0 text27 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_RX_NACK_STOP 6CE 0 CODE 0 text19 dist/default/production\Contagiri.X.production.o
+_I2C2_Initialize 740 0 CODE 0 text5 dist/default/production\Contagiri.X.production.o
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__end_of_rdBlkRegCompleteHandler 8B8 0 CODE 0 text41 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterStartRx 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_SEND_ADR_READ 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
-__size_of_I2C1_MasterOperation 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__LnvBANK0 0 0 ABS 0 nvBANK0 -
-___awdiv@divisor 44 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_SEND_RESTART_WRITE A36 0 CODE 0 text34 dist/default/production\Contagiri.X.production.o
-_I2C1_SetInterruptHandler 9E2 0 CODE 0 text17 dist/default/production\Contagiri.X.production.o
-__end_of___awdiv 20A 0 CODE 0 text13 dist/default/production\Contagiri.X.production.o
-__end_of___awmod 35C 0 CODE 0 text12 dist/default/production\Contagiri.X.production.o
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterGetRxData 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_RX_ACK 6CE 0 CODE 0 text20 dist/default/production\Contagiri.X.production.o
+__end_of___awdiv EC2 0 CODE 0 text8 dist/default/production\Contagiri.X.production.o
+__end_of___awmod D5A 0 CODE 0 text7 dist/default/production\Contagiri.X.production.o
 __CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-EUSART1_SetFramingErrorHandler@interruptHandler 44 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_IDLE A54 0 CODE 0 text41 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_RCEN 9B2 0 CODE 0 text36 dist/default/production\Contagiri.X.production.o
 _INLVLA 1F3C 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _INLVLB 1F47 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _INLVLC 1F52 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_MasterSendTxData@data 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-___stackhi 27EF 0 ABS 0 - C:\Users\Marco\AppData\Local\Temp\sljc.o
-___stacklo 2043 0 ABS 0 - C:\Users\Marco\AppData\Local\Temp\sljc.o
+_I2C2_DO_TX_EMPTY A7A 0 CODE 0 text31 dist/default/production\Contagiri.X.production.o
+___stackhi 27EF 0 ABS 0 - C:\Users\Marco\AppData\Local\Temp\s93k.o
+___stacklo 2038 0 ABS 0 - C:\Users\Marco\AppData\Local\Temp\s93k.o
 __CFG_SAFEN$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterOperation 7E2 0 CODE 0 text21 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_SEND_STOP 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_SEND_ADR_READ 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-SendI2CData@result 51 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_SEND_RESTART_READ A40 0 CODE 0 text35 dist/default/production\Contagiri.X.production.o
-_PIN_MANAGER_Initialize 512 0 CODE 0 text4 dist/default/production\Contagiri.X.production.o
-start_initialization 4E 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
-_eusart1RxLastError 40 0 BANK0 1 bssBANK0 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterFsm A22 0 CODE 0 text15 dist/default/production\Contagiri.X.production.o
+_I2C2_Poller 792 0 CODE 0 text13 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterOperation 8F0 0 CODE 0 text12 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterGetRxData 672 0 CODE 0 text36 dist/default/production\Contagiri.X.production.o
+SendI2CData@result 48 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+_PIN_MANAGER_Initialize AD8 0 CODE 0 text3 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_SetCallback 97A 0 CODE 0 text47 dist/default/production\Contagiri.X.production.o
+_I2C2_Status 20 0 BANK0 1 bssBANK0 dist/default/production\Contagiri.X.production.o
+_I2C2_CallbackReturnStop 63A 0 CODE 0 text40 dist/default/production\Contagiri.X.production.o
+_SSP2CON1bits 19A 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+start_initialization FEA 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
+_SSP2CON2bits 19B 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _ODCONA 1F3A 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _ODCONB 1F45 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _ODCONC 1F50 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _OSCFRQ 893 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_CallbackReturnStop 63E 0 CODE 0 text40 dist/default/production\Contagiri.X.production.o
 __CFG_WDTCPS$WDTCPS_31 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-SendI2CData@_data 52 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_SEND_ADR_WRITE 994 0 CODE 0 text39 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_SEND_ADR_WRITE 72E 0 CODE 0 text28 dist/default/production\Contagiri.X.production.o
+SendI2CData@_data 47 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_SetCallback 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_SEND_RESTART 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __size_of_DispWriteValue 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_CallbackReturnReset 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_RB4PPS 1F1C 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_RB6PPS 1F1E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_RB5PPS 1F1D 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _RB7PPS 1F1F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_RC1REG 119 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_RC1STA 11D 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 rdBlkRegCompleteHandler@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-__end_of_SYSTEM_Initialize 838 0 CODE 0 text1 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterOpen 900 0 CODE 0 text18 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterStop AA0 0 CODE 0 text60 dist/default/production\Contagiri.X.production.o
-i1_I2C1_SetBuffer 8E0 0 CODE 0 text57 dist/default/production\Contagiri.X.production.o
-__end_of_rd2RegCompleteHandler 87C 0 CODE 0 text54 dist/default/production\Contagiri.X.production.o
-I2C1_CallbackReturnReset@funPtr 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-clear_ram0 9B2 0 CODE 0 clrtext dist/default/production\Contagiri.X.production.o
-__pcstackBANK0 41 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_T0CON0 59E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_T0CON1 59F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_ofi1_I2C1_MasterClearIrq 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_SetCallback@idx 74 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-I2C1_SetCallback@ptr 72 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterIsNack 9FA 0 CODE 0 text44 dist/default/production\Contagiri.X.production.o
-_TX1REG 11A 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_TX1STA 11E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterSendNack 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_EUSART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_EUSART1_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_Status 20 0 BANK0 1 bssBANK0 dist/default/production\Contagiri.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Marco\AppData\Local\Temp\sljc.o
-_rd2RegCompleteHandler 85A 0 CODE 0 text54 dist/default/production\Contagiri.X.production.o
+__end_of_SYSTEM_Initialize 7E0 0 CODE 0 text1 dist/default/production\Contagiri.X.production.o
+__end_of_rd2RegCompleteHandler 866 0 CODE 0 text43 dist/default/production\Contagiri.X.production.o
+clear_ram0 704 0 CODE 0 clrtext dist/default/production\Contagiri.X.production.o
+__pcstackBANK0 3E 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterIsNack 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_SEND_RESTART_READ 6A6 0 CODE 0 text24 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_SEND_RESTART 6BA 0 CODE 0 text22 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\Marco\AppData\Local\Temp\s93k.o
+_rd2RegCompleteHandler 844 0 CODE 0 text43 dist/default/production\Contagiri.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -871,7 +797,7 @@ __Hbank6 0 0 ABS 0 bank6 -
 __Hbank7 0 0 ABS 0 bank7 -
 __Hbank8 0 0 ABS 0 bank8 -
 __Hbank9 0 0 ABS 0 bank9 -
-__Hcinit 66 0 CODE 0 cinit -
+__Hcinit 1000 0 CODE 0 cinit -
 __Hidloc 0 0 IDLOC 0 idloc -
 __size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Hsfr10 0 0 ABS 0 sfr10 -
@@ -928,7 +854,7 @@ __Hsfr60 0 0 ABS 0 sfr60 -
 __Hsfr61 0 0 ABS 0 sfr61 -
 __Hsfr62 0 0 ABS 0 sfr62 -
 __Hsfr63 0 0 ABS 0 sfr63 -
-__end_of_wr1RegCompleteHandler 85A 0 CODE 0 text53 dist/default/production\Contagiri.X.production.o
+__end_of_wr1RegCompleteHandler 888 0 CODE 0 text42 dist/default/production\Contagiri.X.production.o
 __Hstack 0 0 STACK 2 stack -
 __Hbank10 0 0 ABS 0 bank10 -
 __Hbank11 0 0 ABS 0 bank11 -
@@ -986,12 +912,15 @@ __Hbank62 0 0 BANK62 1 bank62 -
 __Hbank63 0 0 BANK63 1 bank63 -
 __Hbigram 0 0 ABS 0 bigram -
 __Hmaintext 0 0 ABS 0 maintext -
-_BAUD1CON 11F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_CallbackReturnReset 63E 0 CODE 0 text39 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterSendNack 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterOpen 7C6 0 CODE 0 text11 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterStop 666 0 CODE 0 text49 dist/default/production\Contagiri.X.production.o
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 10018 0 CONFIG 0 config -
-__size_of_I2C1_MasterSendAck 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterEnableRestart 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_MasterOperation@read 45 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterWaitForEvent 6F8 0 CODE 0 text14 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterDisableIrq 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_SetBuffer 7E0 0 CODE 0 text48 dist/default/production\Contagiri.X.production.o
 __Lbank0 0 0 ABS 0 bank0 -
 __Lbank1 0 0 ABS 0 bank1 -
 __Lbank2 0 0 ABS 0 bank2 -
@@ -1002,8 +931,9 @@ __Lbank6 0 0 ABS 0 bank6 -
 __Lbank7 0 0 ABS 0 bank7 -
 __Lbank8 0 0 ABS 0 bank8 -
 __Lbank9 0 0 ABS 0 bank9 -
-__Lcinit 4E 0 CODE 0 cinit -
+__Lcinit FEA 0 CODE 0 cinit -
 __Lidloc 0 0 IDLOC 0 idloc -
+__end_of_I2C2_MasterWaitForEvent 704 0 CODE 0 text14 dist/default/production\Contagiri.X.production.o
 __Lsfr10 0 0 ABS 0 sfr10 -
 __Lsfr11 0 0 ABS 0 sfr11 -
 __Lsfr12 0 0 ABS 0 sfr12 -
@@ -1059,17 +989,12 @@ __Lsfr61 0 0 ABS 0 sfr61 -
 __Lsfr62 0 0 ABS 0 sfr62 -
 __Lsfr63 0 0 ABS 0 sfr63 -
 __Lstack 0 0 STACK 2 stack -
-_EUSART1_FramingErrorHandler 61 0 BANK0 1 nvBANK0 dist/default/production\Contagiri.X.production.o
-_EUSART1_OverrunErrorHandler 5F 0 BANK0 1 nvBANK0 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_ADDRESS_NACK 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterSetIrq A94 0 CODE 0 text43 dist/default/production\Contagiri.X.production.o
-__size_of_EUSART1_SetFramingErrorHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_EUSART1_SetOverrunErrorHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_wr1RegCompleteHandler 838 0 CODE 0 text53 dist/default/production\Contagiri.X.production.o
-_INTCONbits B 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_TX_EMPTY AD8 0 CODE 0 text31 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterSetIrq 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_wr1RegCompleteHandler 866 0 CODE 0 text42 dist/default/production\Contagiri.X.production.o
 __Habs1 0 0 ABS 0 abs1 -
 __Hcode 0 0 ABS 0 code -
-__Hinit 4A 0 CODE 0 init -
+__Hinit 4 0 CODE 0 init -
 __Hsfr0 0 0 ABS 0 sfr0 -
 __Hsfr1 0 0 ABS 0 sfr1 -
 __Hsfr2 0 0 ABS 0 sfr2 -
@@ -1083,7 +1008,7 @@ __Hsfr9 0 0 ABS 0 sfr9 -
 __Htext 0 0 ABS 0 text -
 __Labs1 0 0 ABS 0 abs1 -
 __Lcode 0 0 ABS 0 code -
-__Linit 4A 0 CODE 0 init -
+__Linit 4 0 CODE 0 init -
 __Lsfr0 0 0 ABS 0 sfr0 -
 __Lsfr1 0 0 ABS 0 sfr1 -
 __Lsfr2 0 0 ABS 0 sfr2 -
@@ -1095,118 +1020,107 @@ __Lsfr7 0 0 ABS 0 sfr7 -
 __Lsfr8 0 0 ABS 0 sfr8 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 __Ltext 0 0 ABS 0 text -
-__pstringtext1 76A 0 STRCODE 0 stringtext1 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_SetBuffer 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__pnvBANK0 5D 0 BANK0 1 nvBANK0 dist/default/production\Contagiri.X.production.o
-_SSP1CON1 190 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_SSP1CON2 191 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_SSP1STAT 18F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__pstringtext1 1000 0 STRCODE 0 stringtext1 dist/default/production\Contagiri.X.production.o
+_SSP2CON1 19A 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_SSP2CON2 19B 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_SSP2STAT 199 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_SetDataCompleteCallback 778 0 CODE 0 text46 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_TX_EMPTY 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __CFG_WDTCWS$WDTCWS_7 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
-int$flags 7E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_SSP2STATbits 199 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_MasterSendNack A6E 0 CODE 0 text48 dist/default/production\Contagiri.X.production.o
-SendI2CData@_dataSize 49 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+I2C2_MasterOperation@returnValue 42 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+SendI2CData@_dataSize 43 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
 _RA2 62 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __S0 800C 0 ABS 0 - -
-__S1 7D 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
-__size_of_I2C1_SetInterruptHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_EUSART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_ADDRESS_NACK 632 0 CODE 0 text27 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterEnableIrq 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_SetInterruptHandler@InterruptHandler 44 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_SendI2CData 3FC 0 CODE 0 text14 dist/default/production\Contagiri.X.production.o
-SendI2CData@i 50 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_I2C1_CallbackReturnStop AB0 0 CODE 0 text51 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_CallbackReturnReset AB0 0 CODE 0 text50 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_RX_NACK_RESTART 6D8 0 CODE 0 text18 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_ADDRESS_NACK A22 0 CODE 0 text16 dist/default/production\Contagiri.X.production.o
+__end_of_SendI2CData C26 0 CODE 0 text9 dist/default/production\Contagiri.X.production.o
+SendI2CData@i 46 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_Close 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_RX 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_TX 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_RX_NACK_RESTART 6E2 0 CODE 0 text18 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterEnableRestart 65A 0 CODE 0 text50 dist/default/production\Contagiri.X.production.o
 __CFG_BBEN$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_Open@address 47 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_SEND_STOP A2C 0 CODE 0 text32 dist/default/production\Contagiri.X.production.o
-__end_ofi1_I2C1_SetBuffer 900 0 CODE 0 text57 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_CallbackReturnStop AB4 0 CODE 0 text51 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_RESET 9FA 0 CODE 0 text28 dist/default/production\Contagiri.X.production.o
-_SYSTEM_Initialize 812 0 CODE 0 text1 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterOpen 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterStop 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_MasterSendNack 678 0 CODE 0 text37 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_SEND_STOP 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_SYSTEM_Initialize 7C6 0 CODE 0 text1 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_SEND_RESTART_READ 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_MasterOpen 7AC 0 CODE 0 text11 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterStop 660 0 CODE 0 text49 dist/default/production\Contagiri.X.production.o
 __CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterEnableIrq A7C 0 CODE 0 text19 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterIsNack 9EE 0 CODE 0 text44 dist/default/production\Contagiri.X.production.o
-__size_ofi1_I2C1_SetBuffer 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__HnvBANK0 0 0 ABS 0 nvBANK0 -
-__Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Marco\AppData\Local\Temp\sljc.o
+_I2C2_DO_RESET 6E2 0 CODE 0 text17 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterSendTxData 692 0 CODE 0 text34 dist/default/production\Contagiri.X.production.o
+__Lintentry 4 0 CODE 0 intentry -
+__end_of_I2C2_SetBuffer 800 0 CODE 0 text48 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_IDLE 692 0 CODE 0 text30 dist/default/production\Contagiri.X.production.o
+_I2C2_DO_RCEN 710 0 CODE 0 text25 dist/default/production\Contagiri.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Marco\AppData\Local\Temp\s93k.o
 __size_of_wr2RegCompleteHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterStartRx 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Lstringtext1 0 0 ABS 0 stringtext1 -
 wr2RegCompleteHandler@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\Contagiri.X.production.o
-___awmod@counter 52 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+___awmod@counter 3E 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
 __size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _PIE3bits 719 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_SetDataCompleteCallback@cb 75 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-__ptext10 9D6 0 CODE 0 text10 dist/default/production\Contagiri.X.production.o
-__ptext11 66 0 CODE 0 text11 dist/default/production\Contagiri.X.production.o
-__ptext12 2B4 0 CODE 0 text12 dist/default/production\Contagiri.X.production.o
-__ptext13 14A 0 CODE 0 text13 dist/default/production\Contagiri.X.production.o
-__ptext14 35C 0 CODE 0 text14 dist/default/production\Contagiri.X.production.o
-__ptext15 8C0 0 CODE 0 text15 dist/default/production\Contagiri.X.production.o
-__ptext16 488 0 CODE 0 text16 dist/default/production\Contagiri.X.production.o
-__ptext17 9E2 0 CODE 0 text17 dist/default/production\Contagiri.X.production.o
-__ptext18 900 0 CODE 0 text18 dist/default/production\Contagiri.X.production.o
-__ptext19 A76 0 CODE 0 text19 dist/default/production\Contagiri.X.production.o
-__ptext20 A7C 0 CODE 0 text20 dist/default/production\Contagiri.X.production.o
-__ptext21 7AA 0 CODE 0 text21 dist/default/production\Contagiri.X.production.o
-__ptext22 A82 0 CODE 0 text22 dist/default/production\Contagiri.X.production.o
-__ptext24 A5E 0 CODE 0 text24 dist/default/production\Contagiri.X.production.o
-__ptext25 632 0 CODE 0 text25 dist/default/production\Contagiri.X.production.o
-__ptext26 A88 0 CODE 0 text26 dist/default/production\Contagiri.X.production.o
-__ptext27 5DA 0 CODE 0 text27 dist/default/production\Contagiri.X.production.o
-__ptext28 9FA 0 CODE 0 text28 dist/default/production\Contagiri.X.production.o
-__ptext29 A04 0 CODE 0 text29 dist/default/production\Contagiri.X.production.o
-__ptext30 A0E 0 CODE 0 text30 dist/default/production\Contagiri.X.production.o
-__ptext31 A18 0 CODE 0 text31 dist/default/production\Contagiri.X.production.o
-__ptext32 A22 0 CODE 0 text32 dist/default/production\Contagiri.X.production.o
-__ptext33 A2C 0 CODE 0 text33 dist/default/production\Contagiri.X.production.o
-__ptext34 A36 0 CODE 0 text34 dist/default/production\Contagiri.X.production.o
-__ptext35 A40 0 CODE 0 text35 dist/default/production\Contagiri.X.production.o
-__ptext36 9A4 0 CODE 0 text36 dist/default/production\Contagiri.X.production.o
-__ptext37 3FC 0 CODE 0 text37 dist/default/production\Contagiri.X.production.o
-__ptext38 20A 0 CODE 0 text38 dist/default/production\Contagiri.X.production.o
-__ptext39 994 0 CODE 0 text39 dist/default/production\Contagiri.X.production.o
-__ptext40 982 0 CODE 0 text40 dist/default/production\Contagiri.X.production.o
-__ptext41 A4A 0 CODE 0 text41 dist/default/production\Contagiri.X.production.o
-__ptext42 57C 0 CODE 0 text42 dist/default/production\Contagiri.X.production.o
-__ptext43 A8E 0 CODE 0 text43 dist/default/production\Contagiri.X.production.o
-__ptext44 9EE 0 CODE 0 text44 dist/default/production\Contagiri.X.production.o
-__ptext45 A54 0 CODE 0 text45 dist/default/production\Contagiri.X.production.o
-__ptext46 A66 0 CODE 0 text46 dist/default/production\Contagiri.X.production.o
-__ptext47 A94 0 CODE 0 text47 dist/default/production\Contagiri.X.production.o
-__ptext48 A6E 0 CODE 0 text48 dist/default/production\Contagiri.X.production.o
-__ptext49 A9A 0 CODE 0 text49 dist/default/production\Contagiri.X.production.o
-__ptext50 AAC 0 CODE 0 text50 dist/default/production\Contagiri.X.production.o
-__ptext51 AB0 0 CODE 0 text51 dist/default/production\Contagiri.X.production.o
-__ptext52 7E2 0 CODE 0 text52 dist/default/production\Contagiri.X.production.o
-__ptext53 838 0 CODE 0 text53 dist/default/production\Contagiri.X.production.o
-__ptext54 85A 0 CODE 0 text54 dist/default/production\Contagiri.X.production.o
-__ptext55 87C 0 CODE 0 text55 dist/default/production\Contagiri.X.production.o
-__ptext56 89E 0 CODE 0 text56 dist/default/production\Contagiri.X.production.o
-__ptext57 8E0 0 CODE 0 text57 dist/default/production\Contagiri.X.production.o
-__ptext58 91A 0 CODE 0 text58 dist/default/production\Contagiri.X.production.o
-__ptext59 6D4 0 CODE 0 text59 dist/default/production\Contagiri.X.production.o
-__ptext60 AA0 0 CODE 0 text60 dist/default/production\Contagiri.X.production.o
-__ptext61 AA6 0 CODE 0 text61 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_RX_ACK A18 0 CODE 0 text31 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterEnableRestart AAC 0 CODE 0 text61 dist/default/production\Contagiri.X.production.o
-__end_of_PIN_MANAGER_Initialize 57C 0 CODE 0 text4 dist/default/production\Contagiri.X.production.o
-___awdiv 14A 0 CODE 0 text13 dist/default/production\Contagiri.X.production.o
-___awmod 2B4 0 CODE 0 text12 dist/default/production\Contagiri.X.production.o
-__end_of_TMR0_Initialize 94A 0 CODE 0 text2 dist/default/production\Contagiri.X.production.o
-_EUSART1_ErrorHandler 5D 0 BANK0 1 nvBANK0 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterIsNack 6F8 0 CODE 0 text33 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterSendTxData 688 0 CODE 0 text34 dist/default/production\Contagiri.X.production.o
+I2C2_Open@returnValue 72 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__ptext10 B36 0 CODE 0 text10 dist/default/production\Contagiri.X.production.o
+__ptext11 7AC 0 CODE 0 text11 dist/default/production\Contagiri.X.production.o
+__ptext12 8F0 0 CODE 0 text12 dist/default/production\Contagiri.X.production.o
+__ptext13 792 0 CODE 0 text13 dist/default/production\Contagiri.X.production.o
+__ptext14 6F8 0 CODE 0 text14 dist/default/production\Contagiri.X.production.o
+__ptext15 9CC 0 CODE 0 text15 dist/default/production\Contagiri.X.production.o
+__ptext16 A22 0 CODE 0 text16 dist/default/production\Contagiri.X.production.o
+__ptext17 6E2 0 CODE 0 text17 dist/default/production\Contagiri.X.production.o
+__ptext18 6D8 0 CODE 0 text18 dist/default/production\Contagiri.X.production.o
+__ptext19 6CE 0 CODE 0 text19 dist/default/production\Contagiri.X.production.o
+__ptext20 6C4 0 CODE 0 text20 dist/default/production\Contagiri.X.production.o
+__ptext21 6BA 0 CODE 0 text21 dist/default/production\Contagiri.X.production.o
+__ptext22 6B0 0 CODE 0 text22 dist/default/production\Contagiri.X.production.o
+__ptext23 6A6 0 CODE 0 text23 dist/default/production\Contagiri.X.production.o
+__ptext24 69C 0 CODE 0 text24 dist/default/production\Contagiri.X.production.o
+__ptext25 710 0 CODE 0 text25 dist/default/production\Contagiri.X.production.o
+__ptext26 C26 0 CODE 0 text26 dist/default/production\Contagiri.X.production.o
+__ptext27 D5A 0 CODE 0 text27 dist/default/production\Contagiri.X.production.o
+__ptext28 71E 0 CODE 0 text28 dist/default/production\Contagiri.X.production.o
+__ptext29 72E 0 CODE 0 text29 dist/default/production\Contagiri.X.production.o
+__ptext30 692 0 CODE 0 text30 dist/default/production\Contagiri.X.production.o
+__ptext31 A7A 0 CODE 0 text31 dist/default/production\Contagiri.X.production.o
+__ptext32 672 0 CODE 0 text32 dist/default/production\Contagiri.X.production.o
+__ptext33 6EC 0 CODE 0 text33 dist/default/production\Contagiri.X.production.o
+__ptext34 688 0 CODE 0 text34 dist/default/production\Contagiri.X.production.o
+__ptext35 680 0 CODE 0 text35 dist/default/production\Contagiri.X.production.o
+__ptext36 66C 0 CODE 0 text36 dist/default/production\Contagiri.X.production.o
+__ptext37 678 0 CODE 0 text37 dist/default/production\Contagiri.X.production.o
+__ptext38 666 0 CODE 0 text38 dist/default/production\Contagiri.X.production.o
+__ptext39 63E 0 CODE 0 text39 dist/default/production\Contagiri.X.production.o
+__ptext40 63A 0 CODE 0 text40 dist/default/production\Contagiri.X.production.o
+__ptext41 888 0 CODE 0 text41 dist/default/production\Contagiri.X.production.o
+__ptext42 866 0 CODE 0 text42 dist/default/production\Contagiri.X.production.o
+__ptext43 844 0 CODE 0 text43 dist/default/production\Contagiri.X.production.o
+__ptext44 822 0 CODE 0 text44 dist/default/production\Contagiri.X.production.o
+__ptext45 800 0 CODE 0 text45 dist/default/production\Contagiri.X.production.o
+__ptext46 778 0 CODE 0 text46 dist/default/production\Contagiri.X.production.o
+__ptext47 92E 0 CODE 0 text47 dist/default/production\Contagiri.X.production.o
+__ptext48 7E0 0 CODE 0 text48 dist/default/production\Contagiri.X.production.o
+__ptext49 660 0 CODE 0 text49 dist/default/production\Contagiri.X.production.o
+__ptext50 65A 0 CODE 0 text50 dist/default/production\Contagiri.X.production.o
+__ptext51 654 0 CODE 0 text51 dist/default/production\Contagiri.X.production.o
+__ptext52 8B8 0 CODE 0 text52 dist/default/production\Contagiri.X.production.o
+__ptext53 64E 0 CODE 0 text53 dist/default/production\Contagiri.X.production.o
+__ptext54 648 0 CODE 0 text54 dist/default/production\Contagiri.X.production.o
+__ptext55 642 0 CODE 0 text55 dist/default/production\Contagiri.X.production.o
+__end_of_PIN_MANAGER_Initialize B36 0 CODE 0 text3 dist/default/production\Contagiri.X.production.o
+___awdiv E04 0 CODE 0 text8 dist/default/production\Contagiri.X.production.o
+___awmod CB2 0 CODE 0 text7 dist/default/production\Contagiri.X.production.o
 __Lbank10 0 0 ABS 0 bank10 -
 __Lbank11 0 0 ABS 0 bank11 -
 __Lbank12 0 0 ABS 0 bank12 -
@@ -1261,179 +1175,162 @@ __Lbank60 0 0 BANK60 1 bank60 -
 __Lbank61 0 0 BANK61 1 bank61 -
 __Lbank62 0 0 BANK62 1 bank62 -
 __Lbank63 0 0 BANK63 1 bank63 -
-__pmaintext 688 0 CODE 0 maintext dist/default/production\Contagiri.X.production.o
+__pmaintext 97A 0 CODE 0 maintext dist/default/production\Contagiri.X.production.o
 __Lbigram 0 0 ABS 0 bigram -
 __CFG_BORV$LO 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterSendTxData A5E 0 CODE 0 text45 dist/default/production\Contagiri.X.production.o
-I2C1_SetBuffer@bufferSize 44 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_RX_NACK_STOP A0E 0 CODE 0 text30 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterSendAck 688 0 CODE 0 text35 dist/default/production\Contagiri.X.production.o
 __CFG_RSTOSC$HFINT1 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __CFG_BBSIZE$BB512 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 1000E 0 CONFIG 0 config -
-__end_of_I2C1_Open 512 0 CODE 0 text16 dist/default/production\Contagiri.X.production.o
 __CFG_CP$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterClearIrq 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_MasterSetIrq A8E 0 CODE 0 text43 dist/default/production\Contagiri.X.production.o
-_EUSART1_SetErrorHandler 9D6 0 CODE 0 text10 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_Open 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_Open BAA 0 CODE 0 text10 dist/default/production\Contagiri.X.production.o
 __CFG_WRTAPP$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_SEND_ADR_WRITE 9A4 0 CODE 0 text39 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterFsm 632 0 CODE 0 text25 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterIsr A5E 0 CODE 0 text24 dist/default/production\Contagiri.X.production.o
-I2C1_MasterOperation@returnValue 46 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-DispWriteValue@_val 54 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_EUSART1_SetErrorHandler 9E2 0 CODE 0 text10 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterStart A82 0 CODE 0 text22 dist/default/production\Contagiri.X.production.o
-__end_of_rd1RegCompleteHandler 89E 0 CODE 0 text55 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_SetInterruptHandler 9EE 0 CODE 0 text17 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterSendTxData A54 0 CODE 0 text45 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterGetRxData 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_EUSART1_SetFramingErrorHandler 9D6 0 CODE 0 text9 dist/default/production\Contagiri.X.production.o
-I2C1_Open@returnValue 48 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_EUSART1_SetOverrunErrorHandler 9CA 0 CODE 0 text8 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterSendNack A76 0 CODE 0 text48 dist/default/production\Contagiri.X.production.o
-_SSP1CLKPPS 1EC5 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+DispWriteValue@_val 49 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_Open 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_SEND_ADR_WRITE 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_SEND_RESTART_WRITE 6B0 0 CODE 0 text23 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_IDLE 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_RCEN 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_CallbackReturnReset 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_rd1RegCompleteHandler 844 0 CODE 0 text44 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterClearIrq 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_RX_ACK 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __size_of_rdBlkRegCompleteHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_Poller 7AC 0 CODE 0 text13 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterSetIrq 678 0 CODE 0 text32 dist/default/production\Contagiri.X.production.o
 _OSCCON1 88D 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _OSCCON3 88F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _OSCTUNE 892 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_SSP1DATPPS 1EC6 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_Open 488 0 CODE 0 text16 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_RX_NACK_RESTART A04 0 CODE 0 text29 dist/default/production\Contagiri.X.production.o
-DispWriteValue@packets 58 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+_I2C2_Open B36 0 CODE 0 text10 dist/default/production\Contagiri.X.production.o
+DispWriteValue@packets 4E 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
 __CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
-__end_of_I2C1_DO_RX_NACK_RESTART A0E 0 CODE 0 text29 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_SEND_STOP A22 0 CODE 0 text32 dist/default/production\Contagiri.X.production.o
-_rd1RegCompleteHandler 87C 0 CODE 0 text55 dist/default/production\Contagiri.X.production.o
-_PIR0bits 70C 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_MasterSendAck 680 0 CODE 0 text35 dist/default/production\Contagiri.X.production.o
+_rd1RegCompleteHandler 822 0 CODE 0 text44 dist/default/production\Contagiri.X.production.o
 _PIR3bits 70F 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_MasterOperation 7AA 0 CODE 0 text21 dist/default/production\Contagiri.X.production.o
-__Lend_init 4A 0 CODE 0 end_init -
+__Lend_init 4 0 CODE 0 end_init -
 __CFG_LVP$ON 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __CFG_CSWEN$ON 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterFsm 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-__end_of_I2C1_MasterGetRxData A9A 0 CODE 0 text47 dist/default/production\Contagiri.X.production.o
-end_of_initialization 5E 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_RX_ACK A22 0 CODE 0 text31 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_RESET 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_TMR0_Initialize 934 0 CODE 0 text2 dist/default/production\Contagiri.X.production.o
-__Hintentry 4A 0 CODE 0 intentry -
+__end_of_I2C2_DO_IDLE 69C 0 CODE 0 text30 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_RCEN 71E 0 CODE 0 text25 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterGetRxData 66C 0 CODE 0 text36 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_RX_NACK_STOP 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+end_of_initialization FFA 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterSendNack 680 0 CODE 0 text37 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterOpen 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterStop 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__Hintentry 4 0 CODE 0 intentry -
 __CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-i1I2C1_SetBuffer@buffer 73 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-_I2C1_MasterClearIrq A7C 0 CODE 0 text20 dist/default/production\Contagiri.X.production.o
-_TX1STAbits 11E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Lstrings 0 0 ABS 0 strings -
-___awdiv@quotient 4B 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-?___awdiv 44 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-?___awmod 4D 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+?___awmod 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_RESET 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterEnableRestart 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Hreset_vec 4 0 CODE 0 reset_vec -
+I2C2_Open@address 71 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+_I2C2_DO_SEND_RESTART_READ 69C 0 CODE 0 text24 dist/default/production\Contagiri.X.production.o
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
-_T0CKIPPS 1E91 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-___awmod@dividend 4F 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterFsm 688 0 CODE 0 text25 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterIsr A66 0 CODE 0 text24 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_RX 3FC 0 CODE 0 text37 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_TX 20A 0 CODE 0 text38 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_SEND_RESTART 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__ptext1 812 0 CODE 0 text1 dist/default/production\Contagiri.X.production.o
-__ptext2 934 0 CODE 0 text2 dist/default/production\Contagiri.X.production.o
-__ptext3 94A 0 CODE 0 text3 dist/default/production\Contagiri.X.production.o
-__ptext4 512 0 CODE 0 text4 dist/default/production\Contagiri.X.production.o
-__ptext5 95E 0 CODE 0 text5 dist/default/production\Contagiri.X.production.o
-__ptext6 970 0 CODE 0 text6 dist/default/production\Contagiri.X.production.o
-__ptext7 720 0 CODE 0 text7 dist/default/production\Contagiri.X.production.o
-__ptext8 9BE 0 CODE 0 text8 dist/default/production\Contagiri.X.production.o
-__ptext9 9CA 0 CODE 0 text9 dist/default/production\Contagiri.X.production.o
-_RX1DTPPS 1ECB 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_SEND_STOP 6C4 0 CODE 0 text21 dist/default/production\Contagiri.X.production.o
+I2C2_Close@returnValue 71 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterStartRx 66C 0 CODE 0 text38 dist/default/production\Contagiri.X.production.o
+___awmod@dividend 7B 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_SetDataCompleteCallback 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_SEND_ADR_READ 740 0 CODE 0 text29 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_RX_NACK_STOP 6D8 0 CODE 0 text19 dist/default/production\Contagiri.X.production.o
+__ptext1 7C6 0 CODE 0 text1 dist/default/production\Contagiri.X.production.o
+__ptext2 764 0 CODE 0 text2 dist/default/production\Contagiri.X.production.o
+__ptext3 AD8 0 CODE 0 text3 dist/default/production\Contagiri.X.production.o
+__ptext4 752 0 CODE 0 text4 dist/default/production\Contagiri.X.production.o
+__ptext5 740 0 CODE 0 text5 dist/default/production\Contagiri.X.production.o
+__ptext6 EC2 0 CODE 0 text6 dist/default/production\Contagiri.X.production.o
+__ptext7 CB2 0 CODE 0 text7 dist/default/production\Contagiri.X.production.o
+__ptext8 E04 0 CODE 0 text8 dist/default/production\Contagiri.X.production.o
+__ptext9 BAA 0 CODE 0 text9 dist/default/production\Contagiri.X.production.o
 __size_of_SendI2CData 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_DispWriteValue 66 0 CODE 0 text11 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterIsNack 6EC 0 CODE 0 text33 dist/default/production\Contagiri.X.production.o
+I2C2_SetBuffer@buffer 73 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_SetDataCompleteCallback 792 0 CODE 0 text46 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterClearIrq 642 0 CODE 0 text55 dist/default/production\Contagiri.X.production.o
+_DispWriteValue EC2 0 CODE 0 text6 dist/default/production\Contagiri.X.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-_I2C1_SetDataCompleteCallback 91A 0 CODE 0 text58 dist/default/production\Contagiri.X.production.o
 wr1RegCompleteHandler@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_RESET A04 0 CODE 0 text28 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_SEND_RESTART A36 0 CODE 0 text33 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_CallbackReturnStop 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_DO_SEND_RESTART 6B0 0 CODE 0 text22 dist/default/production\Contagiri.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
+__size_of_I2C2_MasterOperation 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __size_of_rd2RegCompleteHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_I2C2_DO_SEND_ADR_READ 72E 0 CODE 0 text29 dist/default/production\Contagiri.X.production.o
 __Hstringtext1 0 0 ABS 0 stringtext1 -
-_I2C1_SetCallback 6D4 0 CODE 0 text59 dist/default/production\Contagiri.X.production.o
-I2C1_SetCallback@cb 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_DO_RESET 6EC 0 CODE 0 text17 dist/default/production\Contagiri.X.production.o
 _SLRCONA 1F3B 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _SLRCONB 1F46 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _SLRCONC 1F51 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterStart A88 0 CODE 0 text22 dist/default/production\Contagiri.X.production.o
 __CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_SEND_ADR_READ 994 0 CODE 0 text40 dist/default/production\Contagiri.X.production.o
-__end_of__initialization 5E 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
-___awmod@divisor 4D 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_CallbackReturnReset 642 0 CODE 0 text39 dist/default/production\Contagiri.X.production.o
+__end_of__initialization FFA 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
+___awmod@divisor 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
+_I2C2_MasterStartRx 666 0 CODE 0 text38 dist/default/production\Contagiri.X.production.o
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-I2C1_SetBuffer@buffer 47 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_MasterStart 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_SP1BRGH 11C 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_SP1BRGL 11B 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
-_SSP1CON1bits 190 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_SSP1CON2bits 191 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_fsmStateTable 76A 0 STRCODE 0 stringtext1 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_SEND_RESTART_WRITE A40 0 CODE 0 text34 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterOperation 92E 0 CODE 0 text12 dist/default/production\Contagiri.X.production.o
+I2C2_CallbackReturnReset@funPtr 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+_I2C2_MasterSetIrq 672 0 CODE 0 text32 dist/default/production\Contagiri.X.production.o
+_fsmStateTable 1000 0 STRCODE 0 stringtext1 dist/default/production\Contagiri.X.production.o
 __size_of_wr1RegCompleteHandler 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+I2C2_SetCallback@cb 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+I2C2_SetDataCompleteCallback@ptr 77 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-SendI2CData@data 4C 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_I2C1_DO_SEND_ADR_READ 982 0 CODE 0 text40 dist/default/production\Contagiri.X.production.o
-_T0CON0bits 59E 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_Initialize 982 0 CODE 0 text6 dist/default/production\Contagiri.X.production.o
-_SSP1ADD 18D 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_SSP1BUF 18C 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__Hend_init 4E 0 CODE 0 end_init -
-__end_ofi1_I2C1_MasterClearIrq A8E 0 CODE 0 text26 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_RX 488 0 CODE 0 text37 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_TX 2B4 0 CODE 0 text38 dist/default/production\Contagiri.X.production.o
-_EUSART1_SetFramingErrorHandler 9CA 0 CODE 0 text9 dist/default/production\Contagiri.X.production.o
-_EUSART1_SetOverrunErrorHandler 9BE 0 CODE 0 text8 dist/default/production\Contagiri.X.production.o
-__end_of_main 6D4 0 CODE 0 maintext dist/default/production\Contagiri.X.production.o
+I2C2_MasterOperation@read 41 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
+_SSP2ADD 197 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_SSP2BUF 196 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__Hend_init 8 0 CODE 0 end_init -
+__end_of_main 9CC 0 CODE 0 maintext dist/default/production\Contagiri.X.production.o
 rd2RegCompleteHandler@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
-__end_of_DispWriteValue 14A 0 CODE 0 text11 dist/default/production\Contagiri.X.production.o
+__end_of_DispWriteValue FEA 0 CODE 0 text6 dist/default/production\Contagiri.X.production.o
 __CFG_WRTSAF$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_SetBuffer 8C0 0 CODE 0 text15 dist/default/production\Contagiri.X.production.o
 _OSCEN 891 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _PORTA C 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_TMR0H 59D 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_TMR0L 59C 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _TRISA 12 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _TRISB 13 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 _TRISC 14 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__size_of_TMR0_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-_I2C1_DO_ADDRESS_NACK 5DA 0 CODE 0 text27 dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_SEND_RESTART_WRITE 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_MasterWaitForEvent 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterEnableRestart 660 0 CODE 0 text50 dist/default/production\Contagiri.X.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_DO_SEND_RESTART_READ A4A 0 CODE 0 text35 dist/default/production\Contagiri.X.production.o
-__pintentry 8 0 CODE 0 intentry dist/default/production\Contagiri.X.production.o
 __CFG_ZCDDIS$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterClearIrq A82 0 CODE 0 text20 dist/default/production\Contagiri.X.production.o
-__end_of_EUSART1_Initialize 76A 0 CODE 0 text7 dist/default/production\Contagiri.X.production.o
-__end_of_OSCILLATOR_Initialize 970 0 CODE 0 text5 dist/default/production\Contagiri.X.production.o
-i1_I2C1_MasterClearIrq A88 0 CODE 0 text26 dist/default/production\Contagiri.X.production.o
+I2C2_SetCallback@idx 74 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+I2C2_SetCallback@ptr 72 0 COMMON 1 cstackCOMMON dist/default/production\Contagiri.X.production.o
+_I2C2_DO_SEND_STOP 6BA 0 CODE 0 text21 dist/default/production\Contagiri.X.production.o
+__end_of_OSCILLATOR_Initialize 764 0 CODE 0 text4 dist/default/production\Contagiri.X.production.o
 __CFG_PPS1WAY$ON 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-__initialization 4E 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
+__initialization FEA 0 CODE 0 cinit dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_Poller 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __CFG_PWRTS$OFF 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
 __pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\Contagiri.X.production.o
-__size_of_I2C1_DO_SEND_ADR_WRITE 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
-_I2C1_DO_TX_EMPTY 57C 0 CODE 0 text42 dist/default/production\Contagiri.X.production.o
-_I2C1_MasterEnableIrq A76 0 CODE 0 text19 dist/default/production\Contagiri.X.production.o
-__end_of_I2C1_MasterSendAck A6E 0 CODE 0 text46 dist/default/production\Contagiri.X.production.o
-EUSART1_SetOverrunErrorHandler@interruptHandler 44 0 BANK0 1 cstackBANK0 dist/default/production\Contagiri.X.production.o
-_OSCILLATOR_Initialize 95E 0 CODE 0 text5 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterClose 648 0 CODE 0 text54 dist/default/production\Contagiri.X.production.o
+_I2C2_MasterStart 654 0 CODE 0 text51 dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterDisableIrq 654 0 CODE 0 text53 dist/default/production\Contagiri.X.production.o
+_SSP2CLKPPS 1EC8 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__end_of_I2C2_MasterClearIrq 648 0 CODE 0 text55 dist/default/production\Contagiri.X.production.o
+_SSP2DATPPS 1EC9 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_DO_RX_NACK_RESTART 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+__size_of_I2C2_SetBuffer 0 0 ABS 0 - dist/default/production\Contagiri.X.production.o
+_OSCILLATOR_Initialize 752 0 CODE 0 text4 dist/default/production\Contagiri.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1459,12 +1356,68 @@ _OSCILLATOR_Initialize 95E 0 CODE 0 text5 dist/default/production\Contagiri.X.pr
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text21 0 3D5 7AA 185 2
-cstackCOMMON 1 70 70 D 1
-stringtext1 0 3B5 76A 20 2
-intentry 0 4 8 3B1 2
-reset_vec 0 0 0 2 2
-bssBANK0 1 20 20 43 1
+cinit 0 7F5 FEA B 2
+text1 0 3E3 7C6 D 2
+text2 0 3B2 764 A 2
+text3 0 56C AD8 2F 2
+text4 0 3A9 752 9 2
+text5 0 3A0 740 9 2
+text6 0 761 EC2 94 2
+text7 0 659 CB2 54 2
+text8 0 702 E04 5F 2
+text9 0 5D5 BAA 3E 2
+text10 0 59B B36 3A 2
+text11 0 3D6 7AC D 2
+text12 0 478 8F0 1F 2
+text13 0 3C9 792 D 2
+text14 0 37C 6F8 6 2
+text15 0 4E6 9CC 2B 2
+text16 0 511 A22 2C 2
+text17 0 371 6E2 5 2
+text18 0 36C 6D8 5 2
+text19 0 367 6CE 5 2
+text20 0 362 6C4 5 2
+text21 0 35D 6BA 5 2
+text22 0 358 6B0 5 2
+text23 0 353 6A6 5 2
+text24 0 34E 69C 5 2
+text25 0 388 710 7 2
+text26 0 613 C26 46 2
+text27 0 6AD D5A 55 2
+text28 0 38F 71E 8 2
+text29 0 397 72E 9 2
+text30 0 349 692 5 2
+text31 0 53D A7A 2F 2
+text32 0 339 672 3 2
+text33 0 376 6EC 6 2
+text34 0 344 688 5 2
+text35 0 340 680 4 2
+text36 0 336 66C 3 2
+text37 0 33C 678 4 2
+text38 0 333 666 3 2
+text39 0 31F 63E 2 2
+text40 0 31D 63A 2 2
+text41 0 444 888 18 2
+text42 0 433 866 11 2
+text43 0 422 844 11 2
+text44 0 411 822 11 2
+text45 0 400 800 11 2
+text46 0 3BC 778 D 2
+text47 0 497 92E 26 2
+text48 0 3F0 7E0 10 2
+text49 0 330 660 3 2
+text50 0 32D 65A 3 2
+text51 0 32A 654 3 2
+text52 0 45C 8B8 1C 2
+text53 0 327 64E 3 2
+text54 0 324 648 3 2
+text55 0 321 642 3 2
+maintext 0 4BD 97A 29 2
+cstackCOMMON 1 70 70 E 1
+stringtext1 0 800 1000 20 2
+reset_vec 0 0 0 4 2
+bssBANK0 1 20 20 38 1
+clrtext 0 382 704 6 2
 config 0 8007 1000E 5 2
 # OTES Section
 # This section contains data of all the note-psects.  The beginning of the section
