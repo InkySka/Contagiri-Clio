@@ -32,20 +32,17 @@
 #define	XC_HEADER_TEMPLATE_H
 
 #define DISP_MODULE_ADDR    0b0100000
+#define TMR0_CLOCK_HZ       100000
 
-enum i2c_comm_err_codes
-{
-    COMM_I2C_BUSY,
-    COMM_I2C_FAILED,
-    COMM_I2C_SUCCESS
-};
+#define DEBUG
 
 #ifdef	__cplusplus
 extern "C" {
 #endif /* __cplusplus */
 
-    // TODO If C++ is being used, regular C code needs function names to have C 
-    // linkage so the functions can be used by the c code. 
+    volatile short timeSinceLastRevolution = 0;
+    volatile short currentRPMCount = 0;
+    volatile short _i = 0;
 
 #ifdef	__cplusplus
 }

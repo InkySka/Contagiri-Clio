@@ -1,22 +1,27 @@
-#include "func.h"
+#include "disp_func.h"
 #include "defs.h"
-unsigned char write_dato (void) {
-    
+
+inline void HandleDispInterrupt()
+{
+    RA2 = (_i++ % 2);
+    lastDispWriteState = DispWriteValue(currentRPMCount);
+    TMR1_Reload();
 }
-char DispWriteValue(short _val) 
+
+i2c2_error_t DispWriteValue(const short _val) 
 {
     char packets[8];
     char result;
 
     //Display id: upper four bits
     //Value: lower four bits
-    packets[0] = 0b00001110 | ((_val%10)<<4); 
+    packets[0] = 0b00001110 | ((_val/1000)<<4); 
     packets[1] = (packets[0] | (0b00001111));
-    packets[2] = 0b00001101 | (((_val/10)%10)<<4); 
+    packets[2] = 0b00001101 | (((_val/100)%10)<<4); 
     packets[3] = (packets[2] | (0b00001111));
-    packets[4] = 0b00001011 | (((_val/100)%10)<<4); 
+    packets[4] = 0b00001011 | (((_val/10)%10)<<4); 
     packets[5] = (packets[4] | (0b00001111));
-    packets[6] = 0b00000111 | ((_val/1000)<<4); 
+    packets[6] = 0b00000111 | ((_val%10)<<4); 
     packets[7] = (packets[6] | (0b00001111));
     
     result = SendI2CData(packets,8);
@@ -24,11 +29,11 @@ char DispWriteValue(short _val)
     return result;
 }
 
-char SendI2CData(char* _data, const short _dataSize) 
+i2c2_error_t SendI2CData(const char* _data, const short _dataSize) 
 {
     i2c2_error_t result;
     
-    char i;
+    char i = 0;
     /*
      Tries to connect 10 times
      */

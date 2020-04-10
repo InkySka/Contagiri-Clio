@@ -3,14 +3,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/func.c</file>
-            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/i2c2_master.c</file>
-            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/main.c</file>
-            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/func.h</file>
-            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/device_config.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/tmr0.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/interrupt_manager.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/tmr1.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/disp_func.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/rpm_handling.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/rpm_handling.c</file>
             <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/i2c2_master.h</file>
             <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/defs.h</file>
             <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/examples/i2c2_master_example.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/interrupt_manager.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/ext_int.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/eusart1.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/i2c2_master.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/ext_int.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/eusart1.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/pin_manager.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/mcc.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/config1.mc3</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/mcc.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/pin_manager.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/build/default/production/disp_func.i</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/main.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/device_config.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/disp_func.h</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/tmr0.c</file>
+            <file>file:/E:/Programmi/Micro/PIC16F18446/Contagiri.X/mcc_generated_files/tmr1.c</file>
         </group>
     </open-files>
 </project-private>

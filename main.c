@@ -1,41 +1,42 @@
 #include "mcc_generated_files/mcc.h"
 #include "defs.h"
-#include "func.h"
-
-char i = 0;
+#include "disp_func.h"
+#include "rpm_handling.h"
+#ifdef DEBUG
+#include <stdio.h>
+#endif
 
 void main(void)
 {
-    // initialize the device
     SYSTEM_Initialize();
-    //I2C1_SetTimeout((char)255);
-
-    // When using interrupts, you need to set the Global and Peripheral Interrupt Enable bits
-    // Use the following macros to:
-
-    // Enable the Global Interrupts
-    //INTERRUPT_GlobalInterruptEnable();
-
-    // Enable the Peripheral Interrupts
-    //INTERRUPT_PeripheralInterruptEnable();
-
-    // Disable the Global Interrupts
-    //INTERRUPT_GlobalInterruptDisable();
-
-    // Disable the Peripheral Interrupts
-    //INTERRUPT_PeripheralInterruptDisable();
+    
+    TMR0_SetInterruptHandler(HandleRPMTimerOverflowInterrupt);
+    TMR1_SetInterruptHandler(HandleDispInterrupt);
+    INT_SetInterruptHandler(HandleRPMInterrupt);
+    
+    INTERRUPT_GlobalInterruptEnable();
+    INTERRUPT_PeripheralInterruptEnable();
+    
+    printf("Starting timers...\n");
+    
+    TMR0_StartTimer();
+    TMR1_StartTimer();
+    //TMR0_ISR();
+    //TMR1_ISR();
+    
     PORTA = 0x0;
     TRISA = 0x0;
     
+    printf("Device Ready.\n");
     //EUSART1_Write(i);
     while(1)
     {
-        RA2 = ((i++) % 2);
-        DispWriteValue(7777);
+        /*RA2 = ((_i++) % 2);
+        //DispWriteValue(_i * 1000 + _i * 100 + _i * 10 + _i);
+        DispWriteValue(122);
         //write_dato ();
-        __delay_ms(200);
+        __delay_ms(100);
+        if(_i >= 9)
+            _i = 0;*/
     }
 }
-/**
- End of File
-*/
