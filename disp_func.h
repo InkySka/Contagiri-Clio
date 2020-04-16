@@ -18,9 +18,9 @@ extern "C" {
 
 volatile i2c2_error_t lastDispWriteState;
 
-inline void HandleDispInterrupt();
-i2c2_error_t DispWriteValue(const short _val);
-i2c2_error_t SendI2CData(const char* _data, const short _dataSize);
+void HandleDispInterrupt();
+i2c2_error_t DispWriteValue(const unsigned short _val);
+i2c2_error_t SendI2CData(const char* _data, const unsigned short _dataSize);
 
 
 #ifdef	__cplusplus

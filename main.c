@@ -16,27 +16,43 @@ void main(void)
     
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
-    
-    printf("Starting timers...\n");
-    
+
     TMR0_StartTimer();
     TMR1_StartTimer();
     //TMR0_ISR();
     //TMR1_ISR();
     
-    PORTA = 0x0;
-    TRISA = 0x0;
+    //PORTA = 0x0;
+    //TRISA = 0x0;
     
-    printf("Device Ready.\n");
+#ifdef DEBUG
+    printf("\n. . . . . . . . . .\nDEVICE STARTUP\n\n");
+#endif
+    
     //EUSART1_Write(i);
     while(1)
     {
-        /*RA2 = ((_i++) % 2);
-        //DispWriteValue(_i * 1000 + _i * 100 + _i * 10 + _i);
-        DispWriteValue(122);
-        //write_dato ();
-        __delay_ms(100);
-        if(_i >= 9)
-            _i = 0;*/
+        if(hasToRefreshDisp)
+        {
+            lastDispWriteState = DispWriteValue(currentRPMCount);
+        #ifdef DEBUG
+            //RA2 = (_i++ % 2);
+        #endif
+            hasToRefreshDisp = 0;
+        }
+        
+        if(receivedRPMSignal)
+        {
+            
+            currentRPMCount = (currentRPMCount + (125*((short)60000/timeSinceLastRevolution)))/2;
+            if(currentRPMCount % 10 == 9) ++currentRPMCount;
+            if(currentRPMCount > 9999) currentRPMCount = 9999;
+        #ifdef DEBUG
+            printf("[%d\t%d]\t",((int)timeSinceLastRevolution), (unsigned int)(125*((unsigned int)60000/timeSinceLastRevolution)));
+        #endif
+
+            receivedRPMSignal = 0;
+        }
+        
     }
 }

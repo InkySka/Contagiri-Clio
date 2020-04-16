@@ -34,15 +34,22 @@
 #define DISP_MODULE_ADDR    0b0100000
 #define TMR0_CLOCK_HZ       100000
 
-#define DEBUG
+//#define DEBUG
 
 #ifdef	__cplusplus
 extern "C" {
 #endif /* __cplusplus */
 
-    volatile short timeSinceLastRevolution = 0;
-    volatile short currentRPMCount = 0;
-    volatile short _i = 0;
+    volatile unsigned short timeSinceLastRevolution = 0;
+    unsigned short currentRPMCount = 0;
+    volatile unsigned short _i = 0;
+    volatile char hasToRefreshDisp = 0;
+    volatile char receivedRPMSignal = 0;
+    
+#ifdef DEBUG
+    short _dbg_tmr0State = 0;
+    //short last10TimerReadouts
+#endif
 
 #ifdef	__cplusplus
 }

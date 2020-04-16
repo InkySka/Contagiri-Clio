@@ -67,8 +67,8 @@ void TMR0_Initialize(void)
 {
     // Set TMR0 to the options selected in the User Interface
 
-    // T0CS T0CKI_PIN; T0CKPS 1:1; T0ASYNC synchronised; 
-    T0CON1 = 0x00;
+    // T0CS MFINTOSC; T0CKPS 1:4; T0ASYNC synchronised; 
+    T0CON1 = 0xA2;
 
     // TMR0H 0; 
     TMR0H = 0x00;
@@ -139,14 +139,22 @@ void TMR0_ISR(void)
     TMR0H = timer0ReloadVal16bit >> 8;
     TMR0L = (uint8_t) timer0ReloadVal16bit;
 
-    if(TMR0_InterruptHandler)
-    {
-        TMR0_InterruptHandler();
-    }
+    // ticker function call;
+    // ticker is 1 -> Callback function gets called every time this ISR executes
+    TMR0_CallBack();
 
     // add your TMR0 interrupt custom code
 }
 
+void TMR0_CallBack(void)
+{
+    // Add your custom callback code here
+
+    if(TMR0_InterruptHandler)
+    {
+        TMR0_InterruptHandler();
+    }
+}
 
 void TMR0_SetInterruptHandler(void (* InterruptHandler)(void)){
     TMR0_InterruptHandler = InterruptHandler;

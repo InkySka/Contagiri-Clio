@@ -1,15 +1,15 @@
 #include "disp_func.h"
 #include "defs.h"
 
-inline void HandleDispInterrupt()
+void HandleDispInterrupt()
 {
-    RA2 = (_i++ % 2);
-    lastDispWriteState = DispWriteValue(currentRPMCount);
     TMR1_Reload();
+    hasToRefreshDisp = 1;
 }
 
-i2c2_error_t DispWriteValue(const short _val) 
+i2c2_error_t DispWriteValue(const unsigned short _val) 
 {
+    printf("\nRPM Display WRITING: %d\n",_val);
     char packets[8];
     char result;
 
@@ -29,7 +29,7 @@ i2c2_error_t DispWriteValue(const short _val)
     return result;
 }
 
-i2c2_error_t SendI2CData(const char* _data, const short _dataSize) 
+i2c2_error_t SendI2CData(const char* _data, const unsigned short _dataSize) 
 {
     i2c2_error_t result;
     

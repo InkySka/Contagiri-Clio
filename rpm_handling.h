@@ -12,9 +12,9 @@
 extern "C" {
 #endif
 
-inline void HandleRPMTimerOverflowInterrupt();
-inline void HandleRPMInterrupt();
-inline void DebugRPMCount();
+void HandleRPMTimerOverflowInterrupt();
+void HandleRPMInterrupt();
+void DebugRPMCount();
 
 #ifdef	__cplusplus
 }
