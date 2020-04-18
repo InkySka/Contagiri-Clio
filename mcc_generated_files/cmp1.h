@@ -147,7 +147,7 @@ bool CMP1_GetOutputStatus(void);
 */
 void CMP1_ISR(void);
 
-extern void (*CMP1_InterruptHandler)(void);
+void (*CMP1_InterruptHandler)(void);
 
 
 #ifdef __cplusplus  // Provide C++ Compatibility
