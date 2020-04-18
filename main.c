@@ -12,7 +12,8 @@ void main(void)
     
     TMR0_SetInterruptHandler(HandleRPMTimerOverflowInterrupt);
     TMR1_SetInterruptHandler(HandleDispInterrupt);
-    INT_SetInterruptHandler(HandleRPMInterrupt);
+    //INT_SetInterruptHandler(HandleRPMInterrupt);
+    CMP1_InterruptHandler = HandleRPMInterrupt;
     
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
@@ -43,7 +44,6 @@ void main(void)
         
         if(receivedRPMSignal)
         {
-            
             currentRPMCount = (currentRPMCount + (125*((short)60000/timeSinceLastRevolution)))/2;
             if(currentRPMCount % 10 == 9) ++currentRPMCount;
             if(currentRPMCount > 9999) currentRPMCount = 9999;

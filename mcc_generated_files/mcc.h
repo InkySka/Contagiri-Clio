@@ -56,6 +56,7 @@
 #include "i2c2_master.h"
 #include "tmr1.h"
 #include "ext_int.h"
+#include "cmp1.h"
 #include "tmr0.h"
 #include "eusart1.h"
 
